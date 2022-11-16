@@ -27,6 +27,10 @@
                 
                 <div>
 
+                    <p>
+                        custom info about me
+                    </p>
+
                 </div>
 
             </div>
@@ -41,6 +45,11 @@
 
                 <div>
 
+                <p>
+                    custom info about me
+                </p>
+
+                
                 </div>
 
 
