@@ -14,23 +14,23 @@
             </p>
             <div>
                 <a class="btn btn-primary" href="index.php"  role="button"> Home </a> 
-                <a class="btn btn-primary" href="allJob.php"  role="button"> allJob </a> 
-                <a class="btn btn-primary" href="savedJob.php"  role="button"> savedJob  </a> 
-                <a class="btn btn-primary" href="info.php"  role="button"> info </a> 
+                <a class="btn btn-primary" href="allJob.php"  role="button"> All Jobs </a> 
+                <a class="btn btn-primary" href="savedJob.php"  role="button"> Saved Jobs  </a> 
+                <a class="btn btn-primary" href="info.php"  role="button"> Your Profile </a> 
                 <a class="btn btn-primary" href="founders.php"  role="button"> Founders </a> 
 
             </div>
 
         </div>
 
-        <!-- Sample of other jobs ~ most recent-->
+        <!-- Sample of other jobs ~ top 5 - most recent-->
         <div>
 
 
 
         </div>
 
-        <!-- Info about you -->
+        <!-- Info about you - just about section and your major info some not all-->
         <div>
 
 
@@ -41,4 +41,3 @@
 
     </body>
 </html>
-
