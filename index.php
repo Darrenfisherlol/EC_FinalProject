@@ -23,17 +23,24 @@
 
         </div>
 
-        <!-- Sample of other jobs ~ top 5 - most recent-->
         <div>
-
-
-
+            Explore jobs:
         </div>
 
-        <!-- Info about you - just about section and your major info some not all-->
+
+        <!-- Sample of other jobs ~ top 5 - most recent-->
+            query or something pretty of 5 most recent jobs 
+
+
+
         <div>
 
+        <!-- Bottom banner of info-->
+        </div>
 
+            <!-- Info about you - just about section and your major info some not all-->
+        
+        <div>
 
         </div>
     </div>
