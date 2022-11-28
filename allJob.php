@@ -34,8 +34,8 @@
             }
             
             // GET, query, and comple
-            $jid = $_GET["id"];
-            $sql = "SELECT jobID, title, link, companyName, location, hiringTime, listedDate, listedTime FROM allJob j Where jobID =" . $jid;
+            
+            $sql = "SELECT jobID, title, link, companyName, location, hiringTime, listedDate, listedTime FROM allJob j";
             $result = $conn->query($sql);
 
             if ($result->num_rows > 0) {
