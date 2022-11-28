@@ -10,7 +10,14 @@
 
         <!-- Top 1/2 of page -->
         <div>
-
+                <!-- Info about founders -->
+                <div>
+                    <p>
+                        Nicole and Darren worked with the University of Oklahoma, Dr. Bellah, and OU create to make all their dreams come true. 
+                        Jobly is their beautiful brain child that they hope will help future students and job seekers to stay organized and eventually find a job.
+                        They hope that you have a wonderful experience using Jobly!
+                    </p>
+                </div>
         
         </div>
 
@@ -28,7 +35,9 @@
                 <div>
 
                     <p>
-                        custom info about me
+                        Nicole Goral is a senior studying Management Information Systems and International Business. 
+                        After applying to over 70 jobs, Nicole got overwhelmed with tracking which jobs she applied to. 
+                        This website is to help people like Nicole who want to find a job and stay organized while doing so!
                     </p>
 
                 </div>
@@ -46,7 +55,9 @@
                 <div>
 
                 <p>
-                    custom info about me
+                    Darren Fisher is a senior studying Management Information Systems and is on the accelerated Masters track in Information Technology. 
+                    Darren is constantly trying to create the next big thing or work with startups. 
+                    Darren loves helping his friends and creating solutions to problems even more!
                 </p>
 
                 
