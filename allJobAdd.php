@@ -45,7 +45,7 @@
                 // ADD dataabse name
                 //
 
-                $sql = "INSERT INTO addDatabaseName (jobID) VALUES (?)";
+                $sql = "INSERT INTO allJob (jobID) VALUES (?)";
 
                 $saveSql = $conn->prepare($sql);
 
