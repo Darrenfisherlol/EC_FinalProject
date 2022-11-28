@@ -15,6 +15,8 @@
             
                 <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcoed.com%2Fwp-content%2Fuploads%2F2018%2F02%2Fshutterstock_445183672.jpg&f=1&nofb=1&ipt=4b4c7fc52061d9bb89e94ff1b4f13cd65ecbd485247fdc952c4217930c5298d4&ipo=images" alt="OU">
 
+                
+
             </div>
             
             <div>
@@ -63,14 +65,21 @@
 
                 <p>
 
+                    <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fyt3.ggpht.com%2Fa%2FAGF-l78UKMjzMY_5PjOE63fAbRCCkbFLq_sykeDdcw%3Ds900-c-k-c0xffffffff-no-rj-mo&f=1&nofb=1&ipt=f0ec152fcbbd599a0c19dbe59e689012042a9574f1946ef81862891048f9e0a2&ipo=images" alt="linkein">
+                    
+                </p>
+                <p>
+
                     traditional sources like linkedin... dont work
 
                 </p>
                 
                 <p>
-                    From our research of two people, we noticed a lack of success with other platform. Jobly aims to get it done.
+                    From our research of two people, we noticed a lack of success with other platform. 
                 </p> 
-
+                <p>
+                    Jobly aims to get it done.
+                </p>
             </div>
 
             <div>
