@@ -30,14 +30,14 @@
 
         <!-- bottom 2/4 of page -->
         <div>
-            <div>
+            <div  id='infoDivMid'>
                 <p>
                     "Jobly was helped me get 100 job interviews with 100% success"
                 </p>
 
             </div>
 
-            <div>
+            <div id='infoDivMid'>
             
                 <p >
 
@@ -91,12 +91,12 @@
         <!-- bottom 4/4 of page -->
         <div>
 
-            <div>
+            <div  id='infoDivMid'>
 
                 imager - to foudners page link image click
 
             </div>
-            <div>
+            <div  id='infoDivMid'>
 
                  <p>
 
