@@ -42,8 +42,7 @@
             // output data of each row
             while($row = $result->fetch_assoc()) {
           ?>
-            <tr>
-              <td><?=$row["jobID"]?></td>
+            <tr>              
               <td><?=$row["title"]?></td>
               <td><?=$row["companyName"]?></td>
               <td><?=$row["location"]?></td>
