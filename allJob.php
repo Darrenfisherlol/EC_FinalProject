@@ -15,7 +15,7 @@
                 <th>hiringTime</th>
                 <th>listedDate</th>
                 <th>listedTime</th>
-                <th>Apply</th>
+                <th>Save Job</th>
             </tr>
           </thead>
         <tbody>
