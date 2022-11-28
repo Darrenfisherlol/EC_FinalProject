@@ -54,6 +54,7 @@
                 $saveSql->execute();
 
                 $saveSql->close();
+                echo $sql
             ?>
 
             <!-- 
