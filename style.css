@@ -8,3 +8,19 @@ Final Project
     height: 100%;
     width: 100%;
 }
+#infoHeaderPic{
+    float: left;
+    size: 100px;
+}
+#infoDivMid{
+    float: left;
+}
+#infoHeader{
+    padding: 10px;
+    text-align: center;
+    background: cyan;
+    color: black;
+    font-size: 20px;
+    
+    
+}
