@@ -8,8 +8,7 @@
     <div>
       <table class="table table-striped">
           <thead>
-            <tr>
-                <th>jobID</th>
+            <tr>                
                 <th>title</th>
                 <th>companyName</th>
                 <th>location</th>
