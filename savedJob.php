@@ -13,7 +13,6 @@
   <table class="table table-striped">
       <thead>
         <tr>
-            <th>jobID</th>
             <th>title</th>
             <th>companyName</th>
             <th>location</th>
@@ -37,8 +36,8 @@
         }
         
         // GET, query, and comple
-        $jid = $_GET["id"];
-        $sql = "SELECT jobID, title, link, companyName, location, hiringTime, listedDate, listedTime FROM savedJob";
+       
+        $sql = "SELECT title, link, companyName, location, hiringTime, listedDate, listedTime FROM savedJob";
         $result = $conn->query($sql);
 
         if ($result->num_rows > 0) {
@@ -46,7 +45,6 @@
         while($row = $result->fetch_assoc()) {
       ?>
         <tr>
-          <td><?=$row["jobID"]?></td>
           <td><?=$row["title"]?></td>
           <td><?=$row["companyName"]?></td>
           <td><?=$row["location"]?></td>
