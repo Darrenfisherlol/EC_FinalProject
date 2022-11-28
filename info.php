@@ -11,24 +11,18 @@
         <!-- Top 1/4 of page -->
         <div>
 
-            <div>
+            <div infoHeaderPic>
             
                 <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcoed.com%2Fwp-content%2Fuploads%2F2018%2F02%2Fshutterstock_445183672.jpg&f=1&nofb=1&ipt=4b4c7fc52061d9bb89e94ff1b4f13cd65ecbd485247fdc952c4217930c5298d4&ipo=images" alt="OU">
 
-                <p>
+            </div>
+            
+            <div>
+                <p id='infoHeader'>
                     Jobly
                 </p>
-
-
             </div>
-            <div>
-                
-                <p>
-                    Jobly was created in 2022 as the increasing need for a job after graduation became more prevalent
-                </p>
-
             
-            </div>
 
         </div>
 
@@ -43,7 +37,7 @@
 
             <div>
             
-                <p>
+                <p >
 
                     Text about - why
 
@@ -59,7 +53,10 @@
 
             
             <div>
-                
+
+                <p>
+                    Jobly was created in 2022 as the increasing need for a job after graduation became more prevalent
+                </p>
                 
             </div>
             <div>
