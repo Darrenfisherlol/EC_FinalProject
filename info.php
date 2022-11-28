@@ -73,7 +73,9 @@
                     traditional sources like linkedin... dont work
 
                 </p>
-                
+                <p>
+                    <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.pinimg.com%2F736x%2Fd6%2Ff9%2Ff3%2Fd6f9f3a697627118e67439b246f05f64.jpg&f=1&nofb=1&ipt=3af63d5aff6fa05a4fe36e4658716fe53ba2c52101b9ec58640be3db62c7afc7&ipo=images">
+                </p>
                 <p>
                     From our research of two people, we noticed a lack of success with other platform. 
                 </p> 
