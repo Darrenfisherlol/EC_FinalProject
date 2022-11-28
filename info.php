@@ -13,15 +13,19 @@
 
             <div>
             
+                <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcoed.com%2Fwp-content%2Fuploads%2F2018%2F02%2Fshutterstock_445183672.jpg&f=1&nofb=1&ipt=4b4c7fc52061d9bb89e94ff1b4f13cd65ecbd485247fdc952c4217930c5298d4&ipo=images" alt="OU">
+
                 <p>
-                    Description about the comapny - what
+                    Jobly
                 </p>
 
 
             </div>
             <div>
                 
-                IMAGE - cool company image 
+                <p>
+                    Jobly was created in 2022 as the increasing need for a job after graduation became more prevalent
+                </p>
 
             
             </div>
@@ -31,8 +35,9 @@
         <!-- bottom 2/4 of page -->
         <div>
             <div>
-            
-                IMAGE cool about job application or somethign idk 
+                <p>
+                    "Jobly was helped me get 100 job interviews with 100% success"
+                </p>
 
             </div>
 
@@ -52,13 +57,22 @@
         <!-- bottom 3/4 of page -->
         <div>
 
+            
+            <div>
+                
+                
+            </div>
             <div>
 
                 <p>
 
-                    Text about - why
+                    traditional sources like linkedin... dont work
 
-                </P>
+                </p>
+                
+                <p>
+                    From our research of two people, we noticed a lack of success with other platform. Jobly aims to get it done.
+                </p> 
 
             </div>
 
