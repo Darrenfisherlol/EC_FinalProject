@@ -10,12 +10,12 @@
 
         <!-- 
 
-        -- Make the notification for new shop / item added pretty 
+        -- Make the notification for saved job / item added pretty 
 
         -->
         `<div>
 
-            <div class="alert alert-success"> New Shop Added</div>
+            <div class="alert alert-success"> Job Saved</div>
 
         </div>
 
@@ -49,7 +49,7 @@
 
                 $saveSql = $conn->prepare($sql);
 
-                $saveSql->bind_param("i", $storeName);
+                $saveSql->bind_param("i", $jobID);
 
                 $saveSql->execute();
 
