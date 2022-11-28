@@ -40,7 +40,7 @@
         $sql = "SELECT title, link, companyName, location, hiringTime, listedDate, listedTime FROM savedJob";
         $result = $conn->query($sql);
 
-        if ($result->num_rows > 0) {
+        if ($result->num_rows >= 0) {
         // output data of each row
         while($row = $result->fetch_assoc()) {
       ?>
