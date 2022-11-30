@@ -37,7 +37,7 @@
                 }
 
                 // POST 
-                $jobId = $_POST['jobID'];
+                $jobID = $_POST['jobID'];
         
                 // prepare and bind
 
@@ -54,7 +54,6 @@
                 $saveSql->execute();
 
                 $saveSql->close();
-                echo $sql
             ?>
 
             <!-- 
