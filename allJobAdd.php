@@ -81,7 +81,7 @@
                 // POST 
                 $jobID = $_POST['jobID'];
 
-                $sql = "SELECT title, link, companyName, location, hiringTime, listedDate, listedTime FROM savedJob sj inner join allJob aj on sj.jobID=aj.jobID WHERE jobID = $jobID";
+                $sql = "SELECT title, link, companyName, location, hiringTime, listedDate, listedTime FROM savedJob sj inner join allJob aj on sj.jobID=aj.jobID WHERE jobID =" .$jobID;
 
                 $result = $conn->query($sql);
 
@@ -90,15 +90,12 @@
                 while($row = $result->fetch_assoc()) {
               ?>
                 <tr>
-                  <td><?=$row["title"]?></td>
-                  <td><?=$row["companyName"]?></td>
-                  <td><?=$row["location"]?></td>
-                  <td><?=$row["hiringTime"]?></td>
-                  <td><?=$row["listedDate"]?></td>
-                  <td><?=$row["listedTime"]?></td>
-        
-                  
-        
+                    <td><?=$row["title"]?></td>
+                    <td><?=$row["companyName"]?></td>
+                    <td><?=$row["location"]?></td>
+                    <td><?=$row["hiringTime"]?></td>
+                    <td><?=$row["listedDate"]?></td>
+                    <td><?=$row["listedTime"]?></td>
                 </tr>
               <?php
                 }

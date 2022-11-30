@@ -55,9 +55,9 @@
 
           <td>
               <form method="post" action="savedJobDelete.php">
-                  <input type="hidden" name="basketID" value="<?=$row["jobID"]?>" />
+                  <input type="hidden" name="jobID" value="<?=$row["jobID"]?>" />
                   <button type="submit" class="btn" onclick="return confirm('Confirm delete?')"> <div class="btn btn-Danger"> Delete </div> </button>
-              </form>      
+              </form>
           </td>
 
         </tr>
