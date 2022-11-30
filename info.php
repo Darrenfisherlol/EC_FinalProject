@@ -5,8 +5,6 @@
 
 <?php require_once("header.php")?>
 
-<link rel="stylesheet" type="text/css" href="style.css" />
-
     <!-- Div which is 100% of page -->
     <div id='founderBackDiv'>
 
@@ -100,7 +98,7 @@
                 imager - to foudners page link image click
 
             </div>
-            <div  id='infoBotTwo'>
+            <div >
 
                  <p>
 
