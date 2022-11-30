@@ -31,7 +31,7 @@
         }
 
         // GET & POST 
-        $storeId = $_POST['storeId'];
+        $storeId = $_POST['jobID'];
       
         // prepare and bind
         $sql = "DELETE FROM savedJob WHERE jobID=?";

@@ -51,69 +51,51 @@
             ?>
 
 
+            <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>title</th>
+                    <th>companyName</th>
+                </tr>
+            </thead>
+            <tbody>
+            <?php
+                $servername = "localhost";
+                $username = "ngoralou_finalProject";
+                $password = "DarrenNicole1";
+                $dbname = "ngoralou_finalProject";
 
-    <table class="table table-striped">
-      <thead>
-        <tr>
-            <th>title</th>
-            <th>companyName</th>
-            <th>location</th>
-            <th>hiringTime</th>
-            <th>listedDate</th>
-            <th>listedTime</th>
-            <th>Remove Job</th>
-        </tr>
-      </thead>
-    <tbody>
-      <?php
-        $servername = "localhost";
-        $username = "ngoralou_finalProject";
-        $password = "DarrenNicole1";
-        $dbname = "ngoralou_finalProject";
-
-        // Create connection
-        $conn = new mysqli($servername, $username, $password, $dbname);
-        // Check connection
-        if ($conn->connect_error) {
-        die("Connection failed: " . $conn->connect_error);
-        }
-        
-                // POST 
-                $jobID = $_POST['jobID'];
-
-                $sql = "SELECT title, link, companyName, location, hiringTime, listedDate, listedTime FROM savedJob sj inner join allJob aj on sj.jobID=aj.jobID WHERE jobID =" .$jobID;
-
+                // Create connection
+                $conn = new mysqli($servername, $username, $password, $dbname);
+                // Check connection
+                if ($conn->connect_error) {
+                die("Connection failed: " . $conn->connect_error);
+                }
+                
+                // GET, query, and comple
+                $sql = "SELECT title, link, companyName, location, hiringTime, listedDate, listedTime FROM savedJob sj inner join allJob aj on sj.jobID=aj.jobID where aj.jobID= '$_POST[jobID]'";
                 $result = $conn->query($sql);
 
                 if ($result->num_rows >= 0) {
                 // output data of each row
                 while($row = $result->fetch_assoc()) {
-              ?>
+            ?>
                 <tr>
-                    <td><?=$row["title"]?></td>
-                    <td><?=$row["companyName"]?></td>
-                    <td><?=$row["location"]?></td>
-                    <td><?=$row["hiringTime"]?></td>
-                    <td><?=$row["listedDate"]?></td>
-                    <td><?=$row["listedTime"]?></td>
+                <td><?=$row["title"]?></td>
+                <td><?=$row["companyName"]?></td>
                 </tr>
-              <?php
+            <?php
                 }
                 } else {
                 echo "0 results";
                 }
                 $conn->close();
+            ?>     
+            </tbody>
+        </table>
 
-
-
-             
-            ?>
-             </tbody>
-  </table>
             <!-- 
-
             -- Make the notification for GO BACK pretty 
-
             -->
             <a href="allJob.php" class="btn btn-primary"> Back to List of Jobs </a>
             <a href="savedJob.php" class="btn btn-primary"> Back to List of Applied Jobs </a>
