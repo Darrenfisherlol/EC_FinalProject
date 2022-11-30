@@ -31,7 +31,7 @@
         }
       
         // prepare and bind
-        $sql = "DELETE FROM savedJob WHERE jobID='$_POST['jobID']'";
+        $sql = "DELETE FROM savedJob WHERE jobID= '$_POST[jobID]'";
 
         $saveSql = $conn->prepare($sql);
 
