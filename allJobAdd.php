@@ -50,12 +50,23 @@
                 $saveSql->close();
             ?>
 
+        </div>
+
+        <div>
+        
+            <p>
+                You applied for:
+            </p>        
+
+        </div>
+
+        <div>
 
             <table class="table table-striped">
             <thead>
                 <tr>
-                    <th>title</th>
-                    <th>companyName</th>
+                    <th>Job Title</th>
+                    <th>Comapny</th>
                 </tr>
             </thead>
             <tbody>
@@ -73,7 +84,7 @@
                 }
                 
                 // GET, query, and comple
-                $sql = "SELECT title, link, companyName, location, hiringTime, listedDate, listedTime FROM savedJob sj inner join allJob aj on sj.jobID=aj.jobID where aj.jobID= '$_POST[jobID]'";
+                $sql = "SELECT title, link, companyName, location, hiringTime, listedDate, listedTime FROM allJob where jobID= '$_POST[jobID]'";
                 $result = $conn->query($sql);
 
                 if ($result->num_rows >= 0) {
