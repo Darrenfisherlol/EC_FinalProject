@@ -11,7 +11,7 @@
         <!-- Top 1/4 of page -->
         <div>
 
-            <div infoHeaderPic>
+            <div id='infoimagetop'>
             
                 <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcoed.com%2Fwp-content%2Fuploads%2F2018%2F02%2Fshutterstock_445183672.jpg&f=1&nofb=1&ipt=4b4c7fc52061d9bb89e94ff1b4f13cd65ecbd485247fdc952c4217930c5298d4&ipo=images" alt="OU">
 
@@ -93,12 +93,12 @@
         <!-- bottom 4/4 of page -->
         <div>
 
-            <div  id='infoDivMid'>
+            <div  id='infoBotTwo'>
 
                 imager - to foudners page link image click
 
             </div>
-            <div  id='infoDivMid'>
+            <div  id='infoBotTwo'>
 
                  <p>
 
