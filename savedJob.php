@@ -19,6 +19,7 @@
             <th>hiringTime</th>
             <th>listedDate</th>
             <th>listedTime</th>
+            <th>Remove Job</th>
         </tr>
       </thead>
     <tbody>
@@ -51,6 +52,13 @@
           <td><?=$row["hiringTime"]?></td>
           <td><?=$row["listedDate"]?></td>
           <td><?=$row["listedTime"]?></td>
+
+          <td>
+              <form method="post" action="savedJobDelete.php">
+                  <input type="hidden" name="basketID" value="<?=$row["jobID"]?>" />
+                  <button type="submit" class="btn" onclick="return confirm('Confirm delete?')"> <div class="btn btn-Danger"> Delete </div> </button>
+              </form>      
+          </td>
 
         </tr>
       <?php
