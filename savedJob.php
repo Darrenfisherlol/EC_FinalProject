@@ -38,7 +38,7 @@
         
         // GET, query, and comple
        
-        $sql = "SELECT sj.jobID, title, link, companyName, location, hiringTime, listedDate, listedTime FROM savedJob sj inner join allJob aj on sj.jobID=aj.jobID";
+        $sql = "SELECT sj.savedID, title, link, companyName, location, hiringTime, listedDate, listedTime FROM savedJob sj inner join allJob aj on sj.jobID=aj.jobID";
         $result = $conn->query($sql);
 
         if ($result->num_rows >= 0) {
@@ -55,7 +55,7 @@
 
           <td>
               <form method="post" action="savedJobDelete.php">
-                  <input type="hidden" name="jobID" value="<?=$row["jobID"]?>" />
+                  <input type="hidden" name="savedID" value="<?=$row["savedID"]?>" />
                   <button type="submit" class="btn" onclick="return confirm('Confirm delete?')"> <div class="btn btn-Danger"> Delete </div> </button>
               </form>
           </td>
