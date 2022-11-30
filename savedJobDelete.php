@@ -29,16 +29,11 @@
         if ($conn->connect_error) {
         die("Connection failed: " . $conn->connect_error);
         }
-
-        // GET & POST 
-        $storeId = $_POST['jobID'];
       
         // prepare and bind
-        $sql = "DELETE FROM savedJob WHERE jobID=?";
+        $sql = "DELETE FROM savedJob WHERE jobID='$_POST['jobID']'";
 
         $saveSql = $conn->prepare($sql);
-
-        $saveSql->bind_param("i", $jobID);
 
         $saveSql->execute();
 
@@ -47,7 +42,6 @@
     ?>
 
     <a href="savedJob.php" class="btn btn-primary"> Back to Saved Jobs</a>
-    <a href="allJob.php" class="btn btn-primary"> Brows All Jobs</a>
 </div>
     
 

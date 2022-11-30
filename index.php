@@ -52,7 +52,7 @@
                 }
                 
                 // GET, query, and comple
-                $sql = "SELECT title, link, companyName, location, hiringTime, listedDate, listedTime FROM savedJob sj inner join allJob aj on sj.jobID=aj.jobID";
+                $sql = "SELECT title, link, companyName, location, hiringTime, listedDate, listedTime FROM savedJob sj inner join allJob aj on sj.jobID=aj.jobID ORDER BY sj.savedID DESC LIMIT 5";
                 $result = $conn->query($sql);
 
                 if ($result->num_rows >= 0) {
