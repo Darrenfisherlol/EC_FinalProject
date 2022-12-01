@@ -15,40 +15,34 @@
     </head>
     <body>
         <!-- Pages -->
-        <div>
-            <a class="btn btn-primary" href="index.php"  role="button"> Home </a> 
-            <a class="btn btn-primary" href="allJob.php"  role="button"> allJob </a> 
-            <a class="btn btn-primary" href="savedJob.php"  role="button"> savedJob  </a> 
-            <a class="btn btn-primary" href="info.php"  role="button"> info </a> 
-            <a class="btn btn-primary" href="founders.php"  role="button"> Founders </a> 
-        </div>
-        <nav class="navbar navbar-expand-lg bg-light">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="#">Index</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav">
-        <li class="nav-item">
-          <a class="nav-link" href="index.php">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="allJob.php">All Jobs</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="savedJob.php">Saved Jobs</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="info.php">Info</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="founders.php">Founders Page</a>
-        </li>
-      </ul>
-    </div>
-  </div>
-</nav>
+        
+          <nav class="navbar navbar-expand-lg bg-light">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">Index</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" href="index.php">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="allJob.php">All Jobs</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="savedJob.php">Saved Jobs</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="info.php">Info</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="founders.php">Founders Page</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
         <div>
             </br>
         </div>
