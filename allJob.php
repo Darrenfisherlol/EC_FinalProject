@@ -9,12 +9,12 @@
       <table class="table table-striped">
           <thead>
             <tr>                
-                <th>title</th>
-                <th>companyName</th>
-                <th>location</th>
-                <th>hiringTime</th>
-                <th>listedDate</th>
-                <th>listedTime</th>
+                <th>Job Title</th>
+                <th>Company Name</th>
+                <th>Location</th>
+                <th>Hiring Time</th>
+                <th>Listed Date</th>
+                <th>Listed Time</th>
                 <th>Save Job</th>
             </tr>
           </thead>
@@ -52,7 +52,7 @@
               <td>
                 <form method="post" action="allJobAdd.php">
                   <input type="hidden" name="jobID" value="<?=$row["jobID"]?>" />
-                  <button type="submit" class="btn"> <div class="btn btn-primary"> Apply <div> </button>
+                  <button type="submit" class="btn"> <div class="btn btn-primary"> Save Job <div> </button>
                 </form>  
               </td>
 
