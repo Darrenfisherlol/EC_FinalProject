@@ -13,13 +13,13 @@
   <table class="table table-striped">
       <thead>
         <tr>
-            <th>title</th>
-            <th>companyName</th>
-            <th>location</th>
-            <th>hiringTime</th>
-            <th>listedDate</th>
-            <th>listedTime</th>
-            <th>Remove Job</th>
+                <th>Job Title</th>
+                <th>Company Name</th>
+                <th>Location</th>
+                <th>Hiring Time</th>
+                <th>Listed Date</th>
+                <th>Listed Time</th>
+                <th>Save Job</th>
         </tr>
       </thead>
     <tbody>
