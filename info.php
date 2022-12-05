@@ -13,13 +13,13 @@
 
             <div>
             
-                <img style="height: 20%; width: 100%;" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcoed.com%2Fwp-content%2Fuploads%2F2018%2F02%2Fshutterstock_445183672.jpg&f=1&nofb=1&ipt=4b4c7fc52061d9bb89e94ff1b4f13cd65ecbd485247fdc952c4217930c5298d4&ipo=images" alt="OU">
+                <img style="height: 100px; width: 200px;" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcoed.com%2Fwp-content%2Fuploads%2F2018%2F02%2Fshutterstock_445183672.jpg&f=1&nofb=1&ipt=4b4c7fc52061d9bb89e94ff1b4f13cd65ecbd485247fdc952c4217930c5298d4&ipo=images" alt="OU">
 
                 
 
             </div>
             
-            <div style="height: 100px; height: 100px">
+            <div style="font-size:50px; height: 100px; height: 100px; float: right;">
                 <p>
                     Jobly
                 </p>
@@ -30,36 +30,28 @@
 
         <!-- bottom 2/4 of page -->
         <div>
-            <div style="background-color: lightcoral;"
+            <div style="background-color: lightcoral; float: right;">
                 <p>
                     "Jobly was helped me get 100 job interviews with 100% success"
                 </p>
-
             </div>
 
             <div style="float: right; background-color: lightblue;">
             
                 <p >
-
                     Text about - why
-
                 </P>
-
-
             </div>
 
         </div>
 
         <!-- bottom 3/4 of page -->
-        <div>
-
-            
+        <div>            
             <div style="float: right;">
 
                 <p>
                     Jobly was created in 2022 as the increasing need for a job after graduation became more prevalent
                 </p>
-                
             </div>
 
             <div>
@@ -94,7 +86,7 @@
         <!-- bottom 4/4 of page -->
         <div>
 
-            <div style="background-color: lightred;">
+            <div style="background-color: lightred; float: right;">
 
                 imager - to foudners page link image click
 
