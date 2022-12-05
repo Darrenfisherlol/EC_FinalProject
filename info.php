@@ -48,15 +48,14 @@
             <div style="float: left; height:100%; width: 50%; padding: 5px; background-color: lightred; text-align: center; font-size:25px;">
                 
                 
-                traditional sources like linkedin... dont work
+                Traditional sources like linkedin... Don't Work
 
             </div>
 
             <div style="float: left; height:100%; width: 50%; padding: 5px; background-color: lightyellow; text-align: center; font-size:25px;">
                 
                 
-                they are a collection of jobs for everyone... but none for you
-
+                They are a collection of jobs for everyone... 
             </div>
 
         </div>
