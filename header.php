@@ -39,6 +39,9 @@
                 <li class="nav-item">
                   <a class="nav-link" href="founders.php">Founders Page</a>
                 </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="friend.php">Friends Page</a>
+                </li>
               </ul>
             </div>
           </div>
