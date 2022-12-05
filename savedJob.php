@@ -17,8 +17,7 @@
                 <th>Company Name</th>
                 <th>Location</th>
                 <th>Hiring Time</th>
-                <th>Listed Date</th>
-                <th>Listed Time</th>
+                <th>Job Link</th>
                 <th>Save Job</th>
         </tr>
       </thead>
@@ -50,8 +49,7 @@
           <td><?=$row["companyName"]?></td>
           <td><?=$row["location"]?></td>
           <td><?=$row["hiringTime"]?></td>
-          <td><?=$row["listedDate"]?></td>
-          <td><?=$row["listedTime"]?></td>
+          <td><?=$row["link"]?></td>
 
           <td>
               <form method="post" action="savedJobDelete.php">
