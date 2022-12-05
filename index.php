@@ -13,7 +13,7 @@
         </div>
 
         <div>
-            Explore jobs:
+            Most Recent Applied Jobs:
         </div>
 
 
