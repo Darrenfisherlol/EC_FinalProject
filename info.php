@@ -62,7 +62,7 @@
 
         <div style="text-align: center; font-size:50px; height: 250px; width: 100%; background-color: lightgreen;">
 
-            box 4
+            
             Founder page
 
         </div>
