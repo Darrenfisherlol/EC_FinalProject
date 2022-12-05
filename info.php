@@ -30,7 +30,7 @@
 
             <div style="float: left; height:100%; width: 50%; padding: 5px; text-align: center; font-size:25px; background-color: lightcoral;">
                 
-                  Jobly was helped me get 100 job interviews with 100% success
+                  Jobly has helped me get 100 job interviews with 100% success
 
             </div>
 
