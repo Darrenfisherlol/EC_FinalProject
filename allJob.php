@@ -47,6 +47,9 @@
               <td><?=$row["hiringTime"]?></td>
               <td><?=$row["link"]?></td>              
               
+              <td>
+                <a class="btn btn-primary" href="<?=$row["link"]?>" role="button">Job Link</a>
+              </td>
 
               <td>
                 <form method="post" action="allJobAdd.php">
