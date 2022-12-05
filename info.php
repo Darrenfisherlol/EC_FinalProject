@@ -28,14 +28,14 @@
 
         
 
-            <div style="float: left; width: 50%; padding: 5px;">
+            <div style="float: left; width: 50%; padding: 5px; text-align: center; font-size:25px; background-color: lightcoral;">
                 
                 box 2.a
                 Jobly was helped me get 100 job interviews with 100% success
 
             </div>
 
-            <div style="float: left; width: 50%; padding: 5px;">
+            <div style="float: left; width: 50%; padding: 5px; text-align: center; font-size:25px; background-color: lightpink;">
                 
                 box 2.b
                 Jobly was created in 2022 as the increasing need for a job after graduation became more prevalent
@@ -44,16 +44,16 @@
 
         </div>
 
-        <div style="height: 200px; width: 100%; background-color: lightred;">
+        <div style="height: 200px; width: 100%;">
 
-            <div style="float: left; width: 50%; padding: 5px;">
+            <div style="float: left; width: 50%; padding: 5px; background-color: lightred; text-align: center; font-size:25px;">
                 
                 box 3.a
                 traditional sources like linkedin... dont work
 
             </div>
 
-            <div style="float: left; width: 50%; padding: 5px;">
+            <div style="float: left; width: 50%; padding: 5px; background-color: lightyellow; text-align: center; font-size:25px;">
                 
                 box 3.b
                 they are a collection of jobs for everyone... but none for you
