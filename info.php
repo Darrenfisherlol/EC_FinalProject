@@ -8,12 +8,11 @@
     <!-- Div which is 100% of page -->
     <div>
 
-        <div style="height: 100px; width: 100%; background-color: grey;">
+        <div style="height: 200px; width: 100%; background-color: grey;">
 
-            <div style="height: 75px; width: 100%; background-color: lightblue; float: left;">
+            <div style="height: 100px; width: 100%; background-color: lightblue; float: left;">
                 
-                <img style="width: 50px; height:50px" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcoed.com%2Fwp-content%2Fuploads%2F2018%2F02%2Fshutterstock_445183672.jpg&f=1&nofb=1&ipt=4b4c7fc52061d9bb89e94ff1b4f13cd65ecbd485247fdc952c4217930c5298d4&ipo=images" alt="OU">
-
+                <img style="width: 100px; height:50px" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcoed.com%2Fwp-content%2Fuploads%2F2018%2F02%2Fshutterstock_445183672.jpg&f=1&nofb=1&ipt=4b4c7fc52061d9bb89e94ff1b4f13cd65ecbd485247fdc952c4217930c5298d4&ipo=images" alt="OU">
 
             </div>
 
@@ -25,7 +24,7 @@
 
         </div>
 
-        <div style="height: 200px; width: 100%; background-color: lightblue;">
+        <div style="height: 200px; width: 100%; background-color: lightcoral;">
 
         
 
