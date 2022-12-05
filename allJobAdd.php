@@ -55,7 +55,7 @@
         <div>
         
             <p>
-                You applied for:
+                You saved the job:
             </p>        
 
         </div>
