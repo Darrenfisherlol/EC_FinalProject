@@ -19,7 +19,7 @@
 
             </div>
             
-            <div style="font-size:50px; height: 100px; height: 100px; float: right;">
+            <div style="font-size:50px; height: 100px; height: 100px; float: left;">
                 <p>
                     Jobly
                 </p>
@@ -30,13 +30,13 @@
 
         <!-- bottom 2/4 of page -->
         <div>
-            <div style="background-color: lightcoral; float: right;">
+            <div style="background-color: lightcoral; float: left;">
                 <p>
                     "Jobly was helped me get 100 job interviews with 100% success"
                 </p>
             </div>
 
-            <div style="float: right; background-color: lightblue;">
+            <div style="float: left; background-color: lightblue;">
             
                 <p >
                     Text about - why
@@ -47,7 +47,7 @@
 
         <!-- bottom 3/4 of page -->
         <div>            
-            <div style="float: right;">
+            <div style="float: left;">
 
                 <p>
                     Jobly was created in 2022 as the increasing need for a job after graduation became more prevalent
@@ -56,7 +56,7 @@
 
             <div>
 
-                <p style="float: right;">
+                <p style="font-size:50px; width: 100px; height: 100px; float: right;">
 
                     <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fyt3.ggpht.com%2Fa%2FAGF-l78UKMjzMY_5PjOE63fAbRCCkbFLq_sykeDdcw%3Ds900-c-k-c0xffffffff-no-rj-mo&f=1&nofb=1&ipt=f0ec152fcbbd599a0c19dbe59e689012042a9574f1946ef81862891048f9e0a2&ipo=images" alt="linkein">
                     
@@ -66,7 +66,7 @@
                     traditional sources like linkedin... dont work
 
                 </p>
-                <p style="float: right;">
+                <p style="font-size:px; width: 100px; height: 75px; float: right;">
                     <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.pinimg.com%2F736x%2Fd6%2Ff9%2Ff3%2Fd6f9f3a697627118e67439b246f05f64.jpg&f=1&nofb=1&ipt=3af63d5aff6fa05a4fe36e4658716fe53ba2c52101b9ec58640be3db62c7afc7&ipo=images">
                 </p>
                 <p style="float: right;">
