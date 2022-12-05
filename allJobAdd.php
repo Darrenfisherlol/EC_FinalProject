@@ -109,7 +109,7 @@
             -- Make the notification for GO BACK pretty 
             -->
             <a href="allJob.php" class="btn btn-primary"> Back to List of Jobs </a>
-            <a href="savedJob.php" class="btn btn-primary"> Back to List of Applied Jobs </a>
+            <a href="savedJob.php" class="btn btn-primary"> Back to List of Saved Jobs </a>
 
         </div>
 
