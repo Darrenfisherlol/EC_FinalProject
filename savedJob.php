@@ -49,12 +49,12 @@
           <td><?=$row["companyName"]?></td>
           <td><?=$row["location"]?></td>
           <td><?=$row["hiringTime"]?></td>
-          <td><a class="btn btn-Danger" href="<?=$row["link"]?>" role="button">Job Link</a></td>
+          <td><a class="btn btn-primary" href="<?=$row["link"]?>" role="button">Job Link</a></td>
 
           <td>
               <form method="post" action="savedJobDelete.php">
                   <input type="hidden" name="savedID" value="<?=$row["savedID"]?>" />
-                  <button type="submit" class="btn" onclick="return confirm('Confirm delete?')"> <div class="btn btn-Danger"> Delete </div> </button>
+                  <button type="submit" class="btn" onclick="return confirm('Confirm delete?')"> <div class="btn btn-danger"> Delete </div> </button>
               </form>
           </td>
 
