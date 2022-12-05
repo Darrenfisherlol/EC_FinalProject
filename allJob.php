@@ -44,8 +44,9 @@
               <td><?=$row["title"]?></td>
               <td><?=$row["companyName"]?></td>
               <td><?=$row["location"]?></td>
+              <td><?=$row["hiringTime"]?></td>
               <td><a class="btn btn-primary" href="<?=$row["link"]?>" role="button">Job Link</a></td>
-              <td><?=$row["link"]?></td>              
+                            
               
               
               <td>
