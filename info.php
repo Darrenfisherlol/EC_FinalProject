@@ -12,14 +12,13 @@
 
             <div style="height: 75%; width: 100%; background-color: lightblue; float: left;">
                 
-                box 1.a
-                header
+                <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcoed.com%2Fwp-content%2Fuploads%2F2018%2F02%2Fshutterstock_445183672.jpg&f=1&nofb=1&ipt=4b4c7fc52061d9bb89e94ff1b4f13cd65ecbd485247fdc952c4217930c5298d4&ipo=images" alt="OU">
+
 
             </div>
 
-            <div style="height: 25%; width: 100%; background-color: lightred; float: left;">
+            <div style="text-align: center; font-size: 50px; height: 25%; width: 100%; background-color: lightred; float: left;">
                 
-                box 1.b
                 Jobly
 
             </div>
