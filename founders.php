@@ -25,8 +25,8 @@
         <div style="width: 100%; height:200px; float:right;">
         
             <!-- Image -->
-            <div style="width: 50%; float: right"> 
-                <img src="https://media-exp1.licdn.com/dms/image/C5603AQFvAaQW30mjag/profile-displayphoto-shrink_400_400/0/1629331853308?e=1674086400&v=beta&t=z62IE1kzoF_2Y7N9iEL5oxM1gHSzvdnoPFrysVoxZ3g" alt="Nicole">
+            <div style="width: 50%; float: right;"> 
+                <img style="height: 50px; width:50px;" src="https://media-exp1.licdn.com/dms/image/C5603AQFvAaQW30mjag/profile-displayphoto-shrink_400_400/0/1629331853308?e=1674086400&v=beta&t=z62IE1kzoF_2Y7N9iEL5oxM1gHSzvdnoPFrysVoxZ3g" alt="Nicole">
             </div>
             
             <div style="width: 50%; float: right"> 
@@ -46,7 +46,7 @@
 
             <!-- Image -->
             <div style="width: 50%; float: right">
-                <img src="https://media-exp1.licdn.com/dms/image/C4E03AQEXLkjEQK7QYg/profile-displayphoto-shrink_400_400/0/1621025060836?e=1674086400&v=beta&t=8iPq0SLTLrraWpaoK4p6oY-euPQlglgDJSPuNzjlu0c" alt="Darren">
+                <img style="height: 50px; width:50px;" src="https://media-exp1.licdn.com/dms/image/C4E03AQEXLkjEQK7QYg/profile-displayphoto-shrink_400_400/0/1621025060836?e=1674086400&v=beta&t=8iPq0SLTLrraWpaoK4p6oY-euPQlglgDJSPuNzjlu0c" alt="Darren">
             </div>
 
             <div style="width: 50%; float: right">
