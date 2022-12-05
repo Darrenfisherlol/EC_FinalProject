@@ -8,16 +8,16 @@
     <!-- Div which is 100% of page -->
     <div>
 
-        <div style="height: 25%; width: 100%; background-color: grey;">
+        <div style="height: 100px; width: 100%; background-color: grey;">
 
-            <div style="height: 75%; width: 100%; background-color: lightblue;">
+            <div style="height: 75%; width: 100%; background-color: lightblue; float: left;">
                 
                 box 1.a
                 header
 
             </div>
 
-            <div style="height: 25%; width: 100%; background-color: lightgreen;">
+            <div style="height: 25%; width: 100%; background-color: lightred; float: left;">
                 
                 box 1.b
                 Jobly
@@ -26,7 +26,7 @@
 
         </div>
 
-        <div style="height: 25%; width: 100%; background-color: lightblue;">
+        <div style="height: 200px; width: 100%; background-color: lightblue;">
 
         
 
@@ -46,7 +46,7 @@
 
         </div>
 
-        <div style="height: 25%; width: 100%; background-color: lightred;">
+        <div style="height: 200px; width: 100%; background-color: lightred;">
 
             <div style="float: left; width: 50%; padding: 5px;">
                 
@@ -64,7 +64,7 @@
 
         </div>
 
-        <div style="height: 25%; width: 100%; background-color: lightgreen;">
+        <div style="height: 200px; width: 100%; background-color: lightgreen;">
 
             box 4
             Founder page
