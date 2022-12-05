@@ -9,7 +9,7 @@
     <div id='founderBackDiv'>
 
         <!-- Top 1/2 of page -->
-        <div>
+        <div style="width: 100%; height:75px">
                 <!-- Info about founders -->
                 <div>
                     <p>
@@ -24,7 +24,7 @@
         <div>
 
             <!--About Nicole -->
-            <div style="width: 100%;">
+            <div style="width: 100%; height:200px">
             
                 <!-- Image -->
                 <div style="width: 50%; float: right"> 
@@ -44,7 +44,7 @@
             </div>
 
             <!--About Darren -->
-            <div style="width: 100%;">
+            <div style="width: 100%; height:200px">
 
                 <!-- Image -->
                 <div style="width: 50%; float: right">
