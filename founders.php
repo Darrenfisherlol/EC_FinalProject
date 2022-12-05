@@ -22,7 +22,7 @@
 
     
         <!--About Nicole -->
-        <div style="width: 100%; height:200px">
+        <div style="width: 100%; height:200px; float:right;">
         
             <!-- Image -->
             <div style="width: 50%; float: right"> 
@@ -42,7 +42,7 @@
         </div>
 
         <!--About Darren -->
-        <div style="width: 100%; height:200px">
+        <div style="width: 100%; height:200px;float:right;">
 
             <!-- Image -->
             <div style="width: 50%; float: right">
