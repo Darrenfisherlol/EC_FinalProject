@@ -18,13 +18,13 @@
         <div style="width: 100%; height:175px;  margin-top: 25px; margin-bottom: 25px; background-color: #a3b6bc; color:#372823 ">
             <!-- Info about founders -->
             
-            <div style="width: 30%; float: left;font-size:25px; text-align:center; margin-left:20px; margin-right:20px; background-color: #f0913d;">
+            <div style="width: 32%; float: left;font-size:25px; text-align:center; margin-left:20px; margin-right:20px; background-color: #f0913d;">
                 Nicole and Darren worked with the University of Oklahoma, Dr. Bellah, and OU create to make all their dreams come true.
             </div>
-            <div style="width: 30%; float: left;font-size:25px; text-align:center; margin-left:20px; margin-right:20px;background-color: #f0913d;">
+            <div style="width: 32%; float: left;font-size:25px; text-align:center; margin-left:20px; margin-right:20px;background-color: #f0913d;">
                 Jobly is their beautiful brain child that they hope will help future students and job seekers to stay organized and eventually find a job.
             </div>
-            <div style="width: 30%; float: left;font-size:25px; text-align:center; margin-left:20px; margin-right:20px;background-color: #f0913d;">
+            <div style="width: 32%; float: left;font-size:25px; text-align:center; margin-left:20px; margin-right:20px;background-color: #f0913d;">
                 They hope that you have a wonderful experience using Jobly!
             </div>
           
