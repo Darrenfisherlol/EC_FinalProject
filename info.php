@@ -24,19 +24,16 @@
 
         
 
-            <div style="float: left; width: 50%; padding: 5px; text-align: center; font-size:25px; background-color: #fde3c8; color: #372823;">
+            <div style="float: left; height:100%; width: 50%; padding: 5px; text-align: center; font-size:25px; background-color: #fde3c8; color: #372823;">
                 
-                <p style="font-size:50px;" >
-                    Customer Experience
-                <p>
-                <p style="font-size:40px;" >
-                    Jobly has helped me get 100 job interviews with 100% success
+             
+                <p style="font-size:40px; height:100%;" >
+                    "Jobly helped me get 100 job interviews with 100% success"
                 <p>
 
             </div>
 
-            <div style="float: left; width: 50%; padding: 5px; text-align: center; font-size:25px; background-color: lightblue;">
-                
+            <div style="float: left; height:100%; width: 50%; padding: 5px; text-align: center; font-size:45px; background-color: lightblue;">
                 
                 Jobly was created in 2022 as the increasing need for a job after graduation became more prevalent
 
