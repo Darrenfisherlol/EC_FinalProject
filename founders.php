@@ -31,7 +31,7 @@
         </div>
 
     
-       
+         <!--
         <div style="width: 100%; height:175px;  margin-top: 25px; margin-bottom: 25px; background-color: #fde3c8; color:#372823 ">
         
             <div style="width: 50%; float: left;"> 
@@ -50,7 +50,7 @@
 
         </div>
 
-         <!--
+       
         
         <div style="width: 100%; height:200px;float:right;">
 
