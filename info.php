@@ -14,7 +14,7 @@
 
         </div>
 
-        <div style="text-align: center; margin:auto; font-size: 100px; Height:150px; width: 100%; background-color: #fef1e4; color: #372823; font-weight: bold;">
+        <div style="text-align: center; vertical-align:middle; display:inline-block; font-size: 100px; Height:150px; width: 100%; background-color: #fef1e4; color: #372823; font-weight: bold;">
                 
             Jobly
 
@@ -22,10 +22,10 @@
     
         <div style="height:300px; ; width: 100%;">
 
-            <div style="float: left; height:100%; width: 50%; padding: 5px; text-align: center; font-size:25px; background-color: #fde3c8; color: #372823;">
+            <div style="float: left; height:100%; width: 50%; padding: 5px;  background-color: #fde3c8; color: #372823;">
                 
              
-                <p style="font-size:40px; height:100%; top: 50%; left: 50%; margin-top: -100px; margin-left: -100px;">
+                <p style="font-size:40px; height:100%; text-align: center; vertical-align:middle; display:inline-block;">
 
                     "Jobly helped me get 100 job interviews with 100% success"
 
