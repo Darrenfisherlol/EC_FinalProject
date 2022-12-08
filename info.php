@@ -8,7 +8,7 @@
     <!-- Div which is 100% of page -->
     <div>
 
-        <div style="width: 100%; background-color: grey;">
+        <div style="width: 100%; background-color: grey; height: 300px;">
 
             <div>
                 
@@ -16,7 +16,7 @@
 
             </div>
 
-            <div style="text-align: center; font-size: 50px; height: 25px; width: 100%; background-color: #fef1e4; float: left; color: #372823; font-weight: bold;">
+            <div style="text-align: center; font-size: 50px; Height:75px; width: 100%; background-color: #fef1e4; color: #372823; font-weight: bold;">
                 
                 Jobly
 
