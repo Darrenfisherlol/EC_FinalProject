@@ -24,11 +24,11 @@
 
         </div>
 
-        <div style="height: 250px; width: 100%; background-color: #fef1e4;">
+        <div style="height: 250px; width: 100%;">
 
         
 
-            <div style="float: left; height:100%; width: 50%; padding: 5px; text-align: center; font-size:25px; background-color: #fde3c8; color: #372823;">
+            <div style="float: left; width: 50%; padding: 5px; text-align: center; font-size:25px; background-color: #fde3c8; color: #372823;">
                 
                 <p style="font-size:50px;" >
                     Customer Experience
@@ -39,7 +39,7 @@
 
             </div>
 
-            <div style="float: left; height:100%; width: 50%; padding: 5px; text-align: center; font-size:25px; background-color: #fef1e4;">
+            <div style="float: left; width: 50%; padding: 5px; text-align: center; font-size:25px; background-color: lightblue;">
                 
                 
                 Jobly was created in 2022 as the increasing need for a job after graduation became more prevalent
@@ -58,7 +58,7 @@
 
             </div>
 
-            <div style="float: left; height:100%; width: 50%; padding: 5px; background-color: #fef1e4; text-align: center; font-size: 35px; color:#372823; ">
+            <div style="float: left;; width: 50%; padding: 5px; background-color: #fef1e4; text-align: center; font-size: 35px; color:#372823; ">
                 
                 Linkedin collect user information and make you buy expensive +$30 a month subscriptions!
                 
@@ -66,7 +66,7 @@
 
         </div>
 
-        <div style="text-align: center; font-size:50px; height: 50px; width: 100%; background-color: lightred;">
+        <div style="text-align: center; font-size:50px; width: 100%; background-color: lightred;">
 
             
             Founder page
