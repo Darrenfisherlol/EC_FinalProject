@@ -25,10 +25,10 @@
             <div style="float: left; height:100%; width: 50%; padding: 5px; text-align: center; font-size:25px; background-color: #fde3c8; color: #372823;">
                 
              
-                <p style="font-size:40px; height:100%; margin:auto;">
+                <p style="font-size:40px; height:100%; top: 50%; left: 50%; margin-top: -100px; margin-left: -100px;">
 
                     "Jobly helped me get 100 job interviews with 100% success"
-                
+
                 <p>
 
             </div>
@@ -43,7 +43,7 @@
 
 
 
-        <div style="height: 300px; width: 100%;">
+        <div style="height: 350px; width: 100%;">
 
             <div style="float: left; height:100%; width: 50%; padding: 5px; background-color: #fef1e4; text-align: center; ">
                 
