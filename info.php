@@ -70,7 +70,7 @@
 
             Learn more about the founders here:
             
-            <a href="founders.php" class="btn btn-light btn-lg"> 
+            <a href="founders.php" class="btn btn-secondary btn-lg"> 
                 Founders Page
             </a>
 
