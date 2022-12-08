@@ -14,7 +14,7 @@
 
         </div>
 
-        <div style="text-align: center; font-size: 100px; Height:150px; width: 100%; background-color: #fef1e4; color: #372823; font-weight: bold;">
+        <div style="text-align: center; vertical-align: middle; font-size: 100px; Height:150px; width: 100%; background-color: #fef1e4; color: #372823; font-weight: bold;">
                 
             Jobly
 
@@ -22,18 +22,18 @@
     
         <div style="height:300px; ; width: 100%;">
 
-        
-
             <div style="float: left; height:100%; width: 50%; padding: 5px; text-align: center; font-size:25px; background-color: #fde3c8; color: #372823;">
                 
              
-                <p style="font-size:40px; height:100%;" >
+                <p style="font-size:40px; height:100%; vertical-align: middle;">
+
                     "Jobly helped me get 100 job interviews with 100% success"
+                
                 <p>
 
             </div>
 
-            <div style="float: left; height:100%; width: 50%; padding: 5px; text-align: center; font-size:45px; background-color: lightblue;">
+            <div style="float: left; height:100%; width: 50%; padding: 5px; text-align: center; vertical-align: middle; font-size:45px; background-color: lightblue;">
                 
                 Jobly was created in 2022 as the increasing need for a job after graduation became more prevalent
 
@@ -42,8 +42,8 @@
         </div>
 
 
-<!--
-        <div style="height: 350px; width: 100%;">
+
+        <div style="height: 300px; width: 100%;">
 
             <div style="float: left; height:100%; width: 50%; padding: 5px; background-color: #fef1e4; text-align: center; ">
                 
@@ -53,7 +53,7 @@
 
             </div>
 
-            <div style="float: left; height:100%; width: 50%; padding: 5px; background-color: #fef1e4; text-align: center; font-size: 35px; color:#372823; ">
+            <div style="float: left; height:100%; width: 50%; padding: 5px; text-align: center; vertical-align: middle; font-size:45px; background-color: lightblue; ">
                 
                 Linkedin collect user information and make you buy expensive +$30 a month subscriptions!
                 
@@ -61,15 +61,16 @@
 
         </div>
 
+        <!--
         <div style="height:100px; text-align: center; font-size:50px; width: 100%; background-color: lightred;">
 
             
             Founder page
 
         </div>
+        -->
 
     </div>
 
--->
     </body>
 </html>
