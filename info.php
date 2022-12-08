@@ -10,7 +10,7 @@
 
         <div style="width: 100%; background-color: grey;">
 
-            <div style="height: 100px; width: 100%; background-color: lightblue; float: left;">
+            <div>
                 
                 <img style="width: 100%;" src="https://www.ou.edu/content/dam/homepage/outside-class-march-11-2020.jpg">
 
