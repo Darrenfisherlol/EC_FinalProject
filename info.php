@@ -6,9 +6,9 @@
 <?php require_once("header.php")?>
 
     <!-- Div which is 100% of page -->
-    <div>
+    <div style="background-color: #372823;">
 
-        <div style="height:250px; width: 100%; background-color: grey; height: 300px;">
+        <div style="height:250px; width: 100%;  height: 300px;">
                 
             <img style="height:100%; width: 100%;" src="https://www.ou.edu/content/dam/homepage/outside-class-march-11-2020.jpg">
 
@@ -66,7 +66,7 @@
         </div>
 
         
-        <div style="height:100px; font-size:30px; width: 100%; background-color: lightred;">
+        <div style="height:100px; font-size:30px; width: 100%; background-color: #e5c185; font-weight: bold;">
 
             Learn more about the founders here:
             
