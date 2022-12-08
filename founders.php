@@ -8,31 +8,31 @@
     <!-- Div which is 100% of page -->
     <div style="background-color: #fef1e4;">
 
-        <div style="Width:100%; height:200px; margin-top: 25px; margin-bottom: 50px; text-align: center; font-weight: bold; font-size:75px ">
+        <div style="Width:100%; height:200px; margin-top: 25px; margin-bottom: 25px; text-align: center; font-weight: bold; font-size:75px ">
             <p style="font-size:50px; color: #372823; background-color: #fde3c8;">
                 About Founders:
             </p>
         </div>
 
         <!-- Top 1/2 of page -->
-        <div style="width: 100%; height:300px; margin-left:20px; margin-right:20px; margin-top: 25px; margin-bottom: 25px; background-color: #a3b6bc; ">
+        <div style="width: 100%; height:175px;  margin-top: 25px; margin-bottom: 25px; background-color: #a3b6bc; color:#372823 ">
             <!-- Info about founders -->
             
-            <div style="width: 33%; float: left;font-size:25px; text-align:center;">
+            <div style="width: 33%; float: left;font-size:25px; text-align:center; margin-left:20px; margin-right:20px; background-color: #f0913d;">
                 Nicole and Darren worked with the University of Oklahoma, Dr. Bellah, and OU create to make all their dreams come true.
             </div>
-            <div style="width: 33%; float: left;font-size:25px; text-align:center;">
+            <div style="width: 33%; float: left;font-size:25px; text-align:center; margin-left:20px; margin-right:20px;background-color: #f0913d;">
                 Jobly is their beautiful brain child that they hope will help future students and job seekers to stay organized and eventually find a job.
             </div>
-            <div style="width: 33%; float: left;font-size:25px; text-align:center;">
+            <div style="width: 33%; float: left;font-size:25px; text-align:center; margin-left:20px; margin-right:20px;background-color: #f0913d;">
                 They hope that you have a wonderful experience using Jobly!
             </div>
           
         </div>
 
     
-        <!--
-        <div style="width: 100%; height:200px; background-color: #fef1e4; margin-bottom: 50px">
+       
+        <div style="width: 100%; height:175px;  margin-top: 25px; margin-bottom: 25px; background-color: #fde3c8; color:#372823 ">
         
             <div style="width: 50%; float: left;"> 
                 <img style="height: 100%; width:100%;" src="https://media-exp1.licdn.com/dms/image/C5603AQFvAaQW30mjag/profile-displayphoto-shrink_400_400/0/1629331853308?e=1674086400&v=beta&t=z62IE1kzoF_2Y7N9iEL5oxM1gHSzvdnoPFrysVoxZ3g" alt="Nicole">
@@ -50,7 +50,7 @@
 
         </div>
 
-        
+         <!--
         
         <div style="width: 100%; height:200px;float:right;">
 
