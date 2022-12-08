@@ -66,14 +66,14 @@
         </div>
 
         
-        <div style="height:100px; text-align: center; font-size:50px; width: 100%; background-color: lightred;">
+        <div style="height:100px; font-size:30px; width: 100%; background-color: lightred;">
 
             Learn more about the founders here:
-            </br>
-            <button type="button" class="btn btn-light" href="founders.php">
-                Founders Page
-            </button>
             
+            <a href="founders.php" class="btn btn-light btn-lg"> 
+                Founders Page
+            </a>
+
         </div>
         
     </div>
