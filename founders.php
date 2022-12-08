@@ -15,7 +15,7 @@
         </div>
 
         <!-- Top 1/2 of page -->
-        <div style="width: 100%; height:175px;  margin-top: 25px; margin-bottom: 25px; background-color: #a3b6bc; color:#372823 ">
+        <div style="width: 100%; height:175px;  margin-top: 75px; margin-bottom: 50px; background-color: #a3b6bc; color:#372823 ">
             <!-- Info about founders -->
             
             <div style="width: 31%; float: left;font-size:25px; text-align:center; margin-left:15px; margin-right:15px; background-color: #f0913d;">
@@ -31,16 +31,16 @@
         </div>
 
     
-         <!--
+         
         <div style="width: 100%; height:175px;  margin-top: 25px; margin-bottom: 25px; background-color: #fde3c8; color:#372823 ">
         
-            <div style="width: 50%; float: left;"> 
+            <div style="width: 50%; height: 100%; float: left;"> 
                 <img style="height: 100%; width:100%;" src="https://media-exp1.licdn.com/dms/image/C5603AQFvAaQW30mjag/profile-displayphoto-shrink_400_400/0/1629331853308?e=1674086400&v=beta&t=z62IE1kzoF_2Y7N9iEL5oxM1gHSzvdnoPFrysVoxZ3g" alt="Nicole">
             </div>
             
-            <div style="width: 50%; float: left"> 
+            <div style="width: 50%; height: 100%; float: left"> 
 
-                <p>
+                <p style="font-size:25px; color: #372823; background-color: #fde3c8;text-align: center;">
                     Nicole Goral is a senior studying Management Information Systems and International Business. 
                     After applying to over 70 jobs, Nicole got overwhelmed with tracking which jobs she applied to. 
                     This website is to help people like Nicole who want to find a job and stay organized while doing so!
@@ -50,7 +50,7 @@
 
         </div>
 
-       
+       <!--
         
         <div style="width: 100%; height:200px;float:right;">
 
