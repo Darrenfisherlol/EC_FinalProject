@@ -7,7 +7,7 @@
 
   <div style="height:250px; width: 100%;  height: 300px;">
 
-    <img style="height:100%; width: 100%;" src="https://www.ou.edu/content/dam/homepage/slideshow/29544909292_fb75e21f86_k.png">
+    <img style="height:100%; width: 100%;" src="stadium.png">
 
   </div>
 

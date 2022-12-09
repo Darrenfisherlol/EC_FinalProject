@@ -8,11 +8,11 @@
     <!-- main div-->
     <div>
 
-            <div style="background-color: #372823;">
+        <div style="background-color: #372823;">
 
         <div style="height:250px; width: 100%;  height: 300px;">
                 
-            <img style="height:100%; width: 100%;" src="https://www.ou.edu/content/dam/homepage/outside-class-march-11-2020.jpg">
+            <img style="height:100%; width: 100%;" src="nicewalk.jpeg">
 
         </div>
 
@@ -65,7 +65,7 @@
 
             </div>
 
-    </div>
+        </div>
 
 
     <div style="height:100px; font-size:25px; text-align: center; width: 100%; background-color: #fef1e4; font-weight: bold;">
