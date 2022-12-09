@@ -49,11 +49,39 @@
         <div style="width: 100%; height:300px; margin-bottom: 10px; background-color: #fde3c8; color:#372823; ">
             
             <div style="width: 75%; height: 100%; float: left;text-align: center;"> 
+
+
+
                 <p style="font-size:25px; color: #372823; background-color: #fde3c8;text-align: center;">
-                Darren Fisher is a senior studying Management Information Systems and is on the accelerated Masters track in Information Technology. 
-                        Darren is constantly trying to create the next big thing or work with startups. 
                         Darren loves helping his friends and creating solutions to problems even more!
+                
+                    <div>
+                        <p id="changeContent">
+                        Darren Fisher is a senior studying Management Information Systems and is on the accelerated Masters track in Information Technology. 
+                        </p>
+
+                        <button onclick="changeContent()">Learn more</button>
+                        <button onclick="changeContentTwo()">Learn more more!!</button>
+
+                        <script>
+                            function changeContent() 
+                            {
+                                document.getElementById("changeContent").innerHTML = "Darren is constantly trying to create the next big thing or work with startups."
+                            }
+                            function changeContentTwo()
+                            {
+                                document.getElementById("changeContent").innerHTML = "Darren needs a job!!"
+                            }
+                            
+                        </script>
+
+                    </div>
                 </p>
+
+            
+            
+            
+            
             </div>
 
             <div style="width: 25%; height: 100%; float: left;text-align: center; "> 
