@@ -15,7 +15,7 @@
     </head>
     <body>
         <!-- Pages -->
-      <div style="background-color: #e7cfb5;">
+      <div style="background-color: #fde3c8;">
 
         <nav class="navbar navbar-expand-lg bg-light" >
             <div class="container-fluid">
