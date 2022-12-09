@@ -78,17 +78,17 @@
 
 </div>
 
-</div>
+    <div style="background-color: #fef1e4;">
 
 
-        <div>
+        <div style="text-align: center; font-size:30px; width: 100%; background-color: #fef1e4; font-weight: bold;">
             Most Recent Applied Jobs:
         </div>
 
 
         <!-- Sample of other jobs ~ top 5 - most recent-->
           
-        <table class="table table-striped">
+        <table class="table table-striped" style="font-size: 25px;">
             <thead>
                 <tr>
                     <th>Job Title</th>
