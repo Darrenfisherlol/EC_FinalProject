@@ -83,14 +83,12 @@ if ($result->num_rows > 0) {
                           
                    
                           <label for="editLastFriend<?=$row["friendID"]?>Name" class="form-label">Enter Last Name</label>
-                          <input type="text" class="form-control" id="editLastFriend<?=$row["friendiD"]?>"Name" aria-describedby="editLastFriend"<?=$row["friendID"]?>Help" name="lName" value="<?=$row['lastName']?>">
-
-                       
+                          <input type="text" class="form-control" id="editLastFriend<?=$row["friendID"]?>Name" aria-describedby="editLastFriend<?=$row["friendID"]?>Help" name="lName" value="<?=$row['lastName']?>">
+                                                 
                           <label for="editJobFriend<?=$row["friendID"]?>Name" class="form-label">Enter the Job Title</label>
-                          <input type="text" class="form-control" id="editJobFriend<?=$row["friendiD"]?>"Name" aria-describedby="editJobFriend"<?=$row["friendID"]?>Help" name="fTitle" value="<?=$row['friendTitle']?>">
-
+                          <input type="text" class="form-control" id="editJobFriend<?=$row["friendID"]?>Name" aria-describedby="editJobFriend<?=$row["friendID"]?>Help" name="fTitle" value="<?=$row['friendTitle']?>">
                           
-                        
+                                                  
                         </div>
                         <input type="hidden" name="fID" value="<?=$row['friendID']?>">
                         <input type="hidden" name="saveType" value="Edit">
