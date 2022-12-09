@@ -30,7 +30,7 @@
          
         <div style="width: 100%; height:300px;  margin-top: 25px; margin-bottom: 25px; background-color: #fde3c8; color:#372823; ">
         
-            <div style="width: 50%; height: 100%; float: left; text-align: center;"> 
+            <div style="width: 50%; height: 100%; float: left; margin-left:20px;"> 
                 <img style="height: 100%;  display: flex; justify-content: center; align-items: center;" src="https://media-exp1.licdn.com/dms/image/C5603AQFvAaQW30mjag/profile-displayphoto-shrink_400_400/0/1629331853308?e=1674086400&v=beta&t=z62IE1kzoF_2Y7N9iEL5oxM1gHSzvdnoPFrysVoxZ3g" alt="Nicole">
             </div>
             
@@ -48,7 +48,7 @@
 
         <div style="width: 100%; height:300px;  margin-top: 25px; margin-bottom: 25px; background-color: #fde3c8; color:#372823; ">
             
-            <div style="width: 50%; height: 100%; float: left;"> 
+            <div style="width: 50%; height: 100%; float: left; margin-left:20px;"> 
                 <p style="font-size:25px; color: #372823; background-color: #fde3c8;text-align: center;">
                 Darren Fisher is a senior studying Management Information Systems and is on the accelerated Masters track in Information Technology. 
                         Darren is constantly trying to create the next big thing or work with startups. 
