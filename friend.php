@@ -26,7 +26,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     case 'Add':
       $sqlAdd = "insert into friend (firstName, lastName, friendTitle) value (?,?,?)";
       $stmtAdd = $conn->prepare($sqlAdd);
-      $stmtAdd->bind_param("sss", $_POST['fName'], $_POST['lName'], $_POST['fTitle']);
+      $stmtAdd->bind_param("sssi", $_POST['fName'], $_POST['lName'], $_POST['fTitle']);
       $stmtAdd->execute();
       echo '<div class="alert alert-success" role="alert">New Friend added.</div>';
       break;
