@@ -26,8 +26,8 @@
 
 
             <div style="float: left; height:100%; width: 50%; padding: 5px;  background-color: #fde3c8; color: #372823;">            
-                    <div style="font-size:40px; height:100%;">
-                            <p id="changeContent" style="font-size: 25px;">
+                    <div >
+                            <p id="changeContent" style="font-size:40px;">
                                 "Jobly helped me get 100 job interviews with 100% success"
                             </p>
 
