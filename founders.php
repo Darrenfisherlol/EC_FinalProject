@@ -8,7 +8,7 @@
     <!-- Div which is 100% of page -->
     <div style="background-color: #fef1e4;">
 
-        <div style="Width:100%; height:100px; margin-bottom: 10px; text-align: center; font-weight: bold; font-size:75px ">
+        <div style="Width:100%; height:100px; text-align: center; font-weight: bold; font-size:75px ">
             <p style="font-size:50px; color: #372823; background-color: #fde3c8;">
                 About Founders:
             </p>
