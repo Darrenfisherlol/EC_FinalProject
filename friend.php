@@ -1,12 +1,12 @@
 <?php require_once("header.php"); ?>
 
 
-  <h1 style="color: #372823; background-color:#e7cfb5;">Friends</h1>
+  <h1 style="color: #372823; background-color:#fde3c8;">Friends</h1>
 
   <div style="background-color: #fef1e4;">
     <table class="table table-striped">
     <thead>
-      <tr style="color: #372823; font-size:25px">
+      <tr style="color: #372823; font-size:20px; background-color: #fde3c8">
         <th>First Name</th>
         <th>Last Name</th>
         <th>Job Title</th>      
