@@ -44,7 +44,7 @@
 
 
 
-        <div style="height: 300px; width: 100%; text-align:center">
+        <div style="height: 300px; width: 100%; text-align:center; margin-bottom:10px">
 
             <div style="float: left; height:100%; width: 50%; padding: 5px; background-color: #e5c185; text-align: center; ">
                 
@@ -54,7 +54,7 @@
 
             </div>
 
-            <div style="float: left; height:100%; width: 50%; padding: 5px; background-color: #fef1e4; ">
+            <div style="float: left; height:100%; width: 50%; padding: 5px; background-color: #fde3c8; ">
                 <p style="font-size:45px; vertical-align:middle; display:inline-block;">
 
                     Linkedin collect user information and make you buy expensive +$30 a month subscriptions!
