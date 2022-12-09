@@ -24,31 +24,31 @@ if ($conn->connect_error) {
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
   switch ($_POST['saveType']) {
     case 'Add':
-      $sqlAdd = "insert into friend (friendID, firstName, lastName, friendTitle) value (?,?,?,?)";
+      $sqlAdd = "insert into friend (firstName, lastName, friendTitle) value (?,?,?)";
       $stmtAdd = $conn->prepare($sqlAdd);
-      $stmtAdd->bind_param("isss", $_POST['fName'], $_POST['lName'], $_POST['fTitle']);
+      $stmtAdd->bind_param("sss", $_POST['fName'], $_POST['lName'], $_POST['fTitle']);
       $stmtAdd->execute();
-      echo '<div class="alert alert-success" role="alert">New friend added.</div>';
+      echo '<div class="alert alert-success" role="alert">New Friend added.</div>';
       break;
     case 'Edit':
-      $sqlEdit = "update friend set firstName=?, lastName=?, friendTitle=? where friendID=?";
+      $sqlEdit = "update friend set firstName=?, lastName=?, lastName=? where friendID=?";
       $stmtEdit = $conn->prepare($sqlEdit);
-      $stmtEdit->bind_param("isss", $_POST['fName'], $_POST['lName'], $_POST['fTitle']);
+      $stmtEdit->bind_param("sss", $_POST['fName'], $_POST['lName'], $_POST['fTitle']);
       $stmtEdit->execute();
-      echo '<div class="alert alert-success" role="alert">friend edited.</div>';
+      echo '<div class="alert alert-success" role="alert">Friend edited.</div>';
       break;
     case 'Delete':
       $sqlDelete = "delete from friend where friendID=?";
       $stmtDelete = $conn->prepare($sqlDelete);
       $stmtDelete->bind_param("i", $_POST['fID']);
       $stmtDelete->execute();
-      echo '<div class="alert alert-success" role="alert">friend deleted.</div>';
+      echo '<div class="alert alert-success" role="alert">Friend deleted.</div>';
       break;
   }
 }
 ?>         
 <?php
-$sql = "SELECT friendID, firstName, lastName, friendTitle FROM friend";
+$sql = "SELECT friendID, firstName, lastName, friendTitle from friend";
 $result = $conn->query($sql);
 
 if ($result->num_rows > 0) {
@@ -56,10 +56,16 @@ if ($result->num_rows > 0) {
   while($row = $result->fetch_assoc()) {
 ?>
           
-          <tr>
+           <tr>
             <td><?=$row["firstName"]?></td>
             <td><?=$row["lastName"]?></td>
             <td><?=$row["friendTitle"]?></td>
+            <td>
+            <form method="post" action="friendFile.php">
+             <input type="hidden" name="id" value="<?=$row["friendID"]?>" />
+             <input type="submit" value="Friends" />
+           </form>
+           </td>
             <td>
               <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#editFriend<?=$row["friendID"]?>">
                 Edit
@@ -68,26 +74,21 @@ if ($result->num_rows > 0) {
                 <div class="modal-dialog">
                   <div class="modal-content">
                     <div class="modal-header">
-                      <h1 class="modal-title fs-5" id="editFriend<?=$row["friendID"]?>Label">Edit friend</h1>
+                      <h1 class="modal-title fs-5" id="editFriend<?=$row["friendID"]?>Label">Edit Friend</h1>
                       <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
-                    
                     <div class="modal-body">
                       <form method="post" action="">
                         <div class="mb-3">
-                          <label for="editFriend<?=$row["friendID"]?>firstName" class="form-label">First Name</label>
-                          <input type="text" class="form-control" id="editFriend<?=$row["friendID"]?>Name" aria-describedby="editFriend<?=$row["friendID"]?>Help" name="fName" value="<?=$row['firstName']?>">
-                          <div id="editFriend<?=$row["friendID"]?>Help" class="form-text">First Name</div>
-                          <label for="firstName" class="form-label">First Name</label>
-                          <input type="text" class="form-control" id="fName" aria-describedby="nameHelp" name="fName" value="<?=$row['friendID']?>">
-                          <div id="nameHelp" class="form-text">Enter the Last Name</div>                          
+                          <label for="editFriend<?=$row["friendID"]?>Name" class="form-label">Enter First Name</label>
+                          <input type="text" class="form-control" id="editFriend<?=$row["friendiD"]?>Name" aria-describedby="editFriend<?=$row["friendID"]?>Help" name="fName" value="<?=$row['firstName']?>">
+                          <div id="editFriend<?=$row["friendID"]?>Help" class="form-text">Enter the friend's first name.</div>
                         </div>
-                        <input type="hidden" name="fID" value="<?=$row['friendID']?>">
+                        <input type="hidden" name="lName" value="<?=$row['lastName']?>">
                         <input type="hidden" name="saveType" value="Edit">
                         <input type="submit" class="btn btn-primary" value="Submit">
                       </form>
                     </div>
-                  
                   </div>
                 </div>
               </div>
@@ -129,14 +130,14 @@ $conn->close();
               <form method="post" action="">
                 <div class="mb-3">
                   <label for="firstName" class="form-label">First Name</label>
-                  <input type="text" class="form-control" id="fName" aria-describedby="nameHelp" name="fName">
-                  <div id="nameHelp" class="form-text">Enter the First Name</div>
-                   <label for="lastName" class="form-label">Last Name</label>
-                   <input type="text" class="form-control" id="lName" aria-describedby="nameHelp" name="lName">
-                   <div id="nameHelp" class="form-text">Enter the Last Name</div>  
-                   <label for="friendTitle" class="form-label">Job Title</label>
-                   <input type="text" class="form-control" id="fTitle" aria-describedby="nameHelp" name="fTitle">
-                   <div id="nameHelp" class="form-text">Enter the Job Title</div>
+                  <input type="text" class="form-control" id="firstName" aria-describedby="nameHelp" name="fName">
+                  <div id="nameHelp" class="form-text">Enter the First name.</div>
+                  <label for="lastName" class="form-label">Last Name</label>
+                  <input type="text" class="form-control" id="lastName" aria-describedby="nameHelp" name="lName">
+                  <div id="nameHelp" class="form-text">Enter the Last name.</div>
+                  <label for="friendTitle" class="form-label">Job Title</label>
+                  <input type="text" class="form-control" id="friendTitle" aria-describedby="nameHelp" name="fTitle">
+                  <div id="nameHelp" class="form-text">Enter the Job Title.</div>
                 </div>
                 <input type="hidden" name="saveType" value="Add">
                 <button type="submit" class="btn btn-primary">Submit</button>
