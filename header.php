@@ -34,9 +34,6 @@
                   <a class="nav-link" href="savedJob.php">Saved Jobs</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="info.php">Info</a>
-                </li>
-                <li class="nav-item">
                   <a class="nav-link" href="founders.php">Founders Page</a>
                 </li>
                 <li class="nav-item">
