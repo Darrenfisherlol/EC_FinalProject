@@ -11,8 +11,8 @@
 
 <div>
   <table class="table table-striped">
-      <thead>
-        <tr>
+      <thead style="background-color: #fde3c8;">
+        <tr style="color:#372823; font-size:20px">
                 <th>Job Title</th>
                 <th>Company Name</th>
                 <th>Location</th>
@@ -44,7 +44,7 @@
         // output data of each row
         while($row = $result->fetch_assoc()) {
       ?>
-        <tr>
+        <tr style="background-color: #fef1e4; font-size:15px">
           <td><?=$row["title"]?></td>
           <td><?=$row["companyName"]?></td>
           <td><?=$row["location"]?></td>
