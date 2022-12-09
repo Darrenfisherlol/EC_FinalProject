@@ -33,7 +33,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     case 'Edit':
       $sqlEdit = "update friend set firstName=?, lastName=?, lastName=? where friendID=?";
       $stmtEdit = $conn->prepare($sqlEdit);
-      $stmtEdit->bind_param("sssi", $_POST['fName'], $_POST['lName'], $_POST['fTitle'], $_POST['fID']);
+      $stmtEdit->bind_param("isss", $_POST['fID'], $_POST['fName'], $_POST['lName'], $_POST['fTitle']);
       $stmtEdit->execute();
       echo '<div class="alert alert-success" role="alert">Friend edited.</div>';
       break;
