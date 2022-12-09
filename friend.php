@@ -2,7 +2,7 @@
 
   <div style="height:250px; width: 100%;  height: 300px;">
 
-    <img style="height:100%; width: 100%;" src="https://www.ou.edu/content/dam/homepage/outside-class-march-11-2020.jpg">
+    <img style="height:100%; width: 100%;" src="friends.jpeg">
 
   </div>
 
@@ -20,6 +20,7 @@
         <th>First Name</th>
         <th>Last Name</th>
         <th>Job Title</th>
+        <th>Random space lol</th>
         <th>Edit Button</th>
         <th>Delete Button</th>      
       </tr>
