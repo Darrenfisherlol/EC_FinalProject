@@ -113,27 +113,30 @@ $conn->close();
       </table>
       <br />
       <!-- Button trigger modal -->
-      <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#addSection">
+      <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#addFriend">
         Add New
       </button>
 
       <!-- Modal -->
-      <div class="modal fade" id="addSection" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="addSectionLabel" aria-hidden="true">
+      <div class="modal fade" id="addFriend" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="addFriendLabel" aria-hidden="true">
         <div class="modal-dialog">
           <div class="modal-content">
             <div class="modal-header">
-              <h1 class="modal-title fs-5" id="addSectionLabel">Add Customer</h1>
+              <h1 class="modal-title fs-5" id="addFriendLabel">Add Friend</h1>
               <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
               <form method="post" action="">
                 <div class="mb-3">
-                  <label for="sectionNumber" class="form-label">Section Number</label>
-                  <input type="text" class="form-control" id="sNum" aria-describedby="nameHelp" name="sNum">
-                  <div id="nameHelp" class="form-text">Enter the Section's Number.</div>
-                   <label for="courseID" class="form-label">Course ID</label>
-                   <input type="text" class="form-control" id="cID" aria-describedby="nameHelp" name="cID">
-                   <div id="nameHelp" class="form-text">Enter the Section Course's ID</div>                          
+                  <label for="firstName" class="form-label">First Name</label>
+                  <input type="text" class="form-control" id="fName" aria-describedby="nameHelp" name="fName">
+                  <div id="nameHelp" class="form-text">Enter the First Name</div>
+                   <label for="lastName" class="form-label">Last Name</label>
+                   <input type="text" class="form-control" id="lName" aria-describedby="nameHelp" name="lName">
+                   <div id="nameHelp" class="form-text">Enter the Last Name</div>  
+                   <label for="friendTitle" class="form-label">Job Title</label>
+                   <input type="text" class="form-control" id="fTitle" aria-describedby="nameHelp" name="fTitle">
+                   <div id="nameHelp" class="form-text">Enter the Job Title</div>
                 </div>
                 <input type="hidden" name="saveType" value="Add">
                 <button type="submit" class="btn btn-primary">Submit</button>
