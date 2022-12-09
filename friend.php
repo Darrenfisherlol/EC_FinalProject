@@ -79,15 +79,15 @@ if ($result->num_rows > 0) {
                         <div class="mb-3">
 
                           <label for="editFirstFriend<?=$row["friendID"]?>Name" class="form-label">Enter First Name</label>
-                          <input type="text" class="form-control" id="editFirstFriend<?=$row["friendiD"]?>"Name" aria-describedby="editFirstFriend"<?=$row["friendID"]?>Help name="fName" value="<?=$row['firstName']?>"</input>
+                          <input type="text" class="form-control" id="editFirstFriend<?=$row["friendiD"]?>"Name" aria-describedby="editFirstFriend"<?=$row["friendID"]?>Help" name="fName" value="<?=$row['firstName']?>">
 
                    
                           <label for="editLastFriend<?=$row["friendID"]?>Name" class="form-label">Enter Last Name</label>
-                          <input type="text" class="form-control" id="editLastFriend<?=$row["friendiD"]?>"Name" aria-describedby="editLastFriend"<?=$row["friendID"]?>Help name="lName" value="<?=$row['lastName']?>">
+                          <input type="text" class="form-control" id="editLastFriend<?=$row["friendiD"]?>"Name" aria-describedby="editLastFriend"<?=$row["friendID"]?>Help" name="lName" value="<?=$row['lastName']?>">
 
                        
                           <label for="editJobFriend<?=$row["friendID"]?>Name" class="form-label">Enter the Job Title</label>
-                          <input type="text" class="form-control" id="editJobFriend<?=$row["friendiD"]?>"Name" aria-describedby="editJobFriend"<?=$row["friendID"]?>Help name="fTitle" value="<?=$row['friendTitle']?>">
+                          <input type="text" class="form-control" id="editJobFriend<?=$row["friendiD"]?>"Name" aria-describedby="editJobFriend"<?=$row["friendID"]?>Help" name="fTitle" value="<?=$row['friendTitle']?>">
 
                           
                         
