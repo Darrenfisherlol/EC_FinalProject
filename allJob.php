@@ -5,6 +5,12 @@
 
     <?php require_once("header.php")?>
 
+    <div style="Width:100%; height:100px; text-align: center; font-weight: bold; font-size:75px;background-color: #fde3c8; margin-bottom: 10px;">
+      <p style="font-size:50px; color: #372823;">
+          All Jobs
+      </p>
+    </div>
+
     <div>
       <table class="table table-striped">
           <thead style="background-color: #fde3c8;">

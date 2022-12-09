@@ -1,15 +1,23 @@
 <?php require_once("header.php"); ?>
 
 
-  <h1 style="color: #372823; background-color:#fde3c8;">Friends</h1>
+  <div style="Width:100%; height:100px; text-align: center; font-weight: bold; font-size:75px;background-color: #fde3c8; margin-bottom: 10px;">
+    <p style="font-size:50px; color: #372823;">
+        Friends List
+    </p>
+  </div>
 
   <div style="background-color: #fef1e4;">
+
+
     <table class="table table-striped">
     <thead>
       <tr style="color: #372823; font-size:20px; background-color: #fde3c8">
         <th>First Name</th>
         <th>Last Name</th>
-        <th>Job Title</th>      
+        <th>Job Title</th>
+        <th>Edit Button</th>
+        <th>Delete Button</th>      
       </tr>
     </thead>
     <tbody>
