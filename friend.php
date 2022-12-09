@@ -61,11 +61,7 @@ if ($result->num_rows > 0) {
             <td><?=$row["lastName"]?></td>
             <td><?=$row["friendTitle"]?></td>
             <td>
-            <!--
-            <form method="post" action="friendFile.php">
-             <input type="hidden" name="id" value="<?=$row["friendID"]?>" />             
-           </form>
-           -->
+            
            </td>
             <td>
               <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#editFriend<?=$row["friendID"]?>">
