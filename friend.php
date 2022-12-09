@@ -84,8 +84,14 @@ if ($result->num_rows > 0) {
                           <label for="editFriend<?=$row["friendID"]?>Name" class="form-label">Enter First Name</label>
                           <input type="text" class="form-control" id="editFriend<?=$row["friendiD"]?>Name" aria-describedby="editFriend<?=$row["friendID"]?>Help" name="fName" value="<?=$row['firstName']?>">
                           <div id="editFriend<?=$row["friendID"]?>Help" class="form-text">Enter the friend's first name.</div>
+                          <label for="editFriend<?=$row["friendID"]?>Name" class="form-label">Enter Last Name</label>
+                          <input type="text" class="form-control" id="editFriend<?=$row["friendiD"]?>Name" aria-describedby="editFriend<?=$row["friendID"]?>Help" name="lName" value="<?=$row['lastName']?>">
+                          <div id="editFriend<?=$row["friendID"]?>Help" class="form-text">Enter the friend's Last name.</div>
+                          <label for="editFriend<?=$row["friendID"]?>Name" class="form-label">Enter the Job Title</label>
+                          <input type="text" class="form-control" id="editFriend<?=$row["friendiD"]?>Name" aria-describedby="editFriend<?=$row["friendID"]?>Help" name="fTitle" value="<?=$row['friendTitle']?>">
+                          <div id="editFriend<?=$row["friendID"]?>Help" class="form-text">Enter the Job Title.</div>
                         </div>
-                        <input type="hidden" name="lName" value="<?=$row['lastName']?>">
+                        <input type="hidden" name="fID" value="<?=$row['friendID']?>">
                         <input type="hidden" name="saveType" value="Edit">
                         <input type="submit" class="btn btn-primary" value="Submit">
                       </form>
