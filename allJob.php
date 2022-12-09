@@ -40,7 +40,7 @@
             // output data of each row
             while($row = $result->fetch_assoc()) {
           ?>
-            <tr style="background-color: #fef1e4; font-size:15px">              
+            <tr style="background-color: #fef1e4; font-size:15px">
               <td><?=$row["title"]?></td>
               <td><?=$row["companyName"]?></td>
               <td><?=$row["location"]?></td>
