@@ -31,7 +31,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
       echo '<div class="alert alert-success" role="alert">New Friend added.</div>';
       break;
     case 'Edit':
-      $sqlEdit = "update friend set firstName=?, lastName=?, lastName=? where friendID=?";
+      $sqlEdit = "update friend set firstName=?, lastName=?, friendTitle=? where friendID=?";
       $stmtEdit = $conn->prepare($sqlEdit);
       $stmtEdit->bind_param("sssi", $_POST['fName'], $_POST['lName'], $_POST['fTitle'], $_POST['fID']);
       $stmtEdit->execute();
