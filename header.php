@@ -15,40 +15,45 @@
     </head>
     <body>
         <!-- Pages -->
-        
-      <nav class="navbar navbar-expand-lg bg-light" style="background-color: #e7cfb5;">
-          <div class="container-fluid">
-            <a class="navbar-brand" href="#">
-            <p style="color:#372823; font-weight: bold;">
-              Jobly
-            </p>
-            </a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
+      <div style="background-color: #e7cfb5;">
 
-              <div class="collapse navbar-collapse" id="navbarNav">
+        <nav class="navbar navbar-expand-lg bg-light" >
+            <div class="container-fluid">
+              <a class="navbar-brand">
 
-                <ul class="navbar-nav">
-                  <li class="nav-item">
-                    <a class="nav-link" href="index.php">Home</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="allJob.php">All Jobs</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="savedJob.php">Saved Jobs</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="founders.php">Founders Page</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="friend.php">Friends Page</a>
-                  </li>
-                </ul>
-              </div>
-          </div>
-      </nav>
-      <div>
-            </br>
-        </div>
+                <p style="color:#372823;">
+                  Jobly
+                </p>
+
+              </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarNav">
+
+                  <ul class="navbar-nav" style="color: #372823">
+                    <li class="nav-item">
+                      <a class="nav-link" href="index.php">Home</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="allJob.php">All Jobs</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="savedJob.php">Saved Jobs</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="founders.php">Founders Page</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="friend.php">Friends Page</a>
+                    </li>
+                  </ul>
+                </div>
+            </div>
+        </nav>
+
+
+
+      </div>  
+    
