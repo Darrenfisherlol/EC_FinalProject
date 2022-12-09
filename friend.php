@@ -137,13 +137,13 @@ $conn->close();
                 <div class="mb-3">
                   <label for="firstName" class="form-label">First Name</label>
                   <input type="text" class="form-control" id="firstName" aria-describedby="nameHelp" name="fName">
-                  <div id="nameHelp" class="form-text">Enter the First name.</div>
+                  
                   <label for="lastName" class="form-label">Last Name</label>
                   <input type="text" class="form-control" id="lastName" aria-describedby="nameHelp" name="lName">
-                  <div id="nameHelp" class="form-text">Enter the Last name.</div>
+                  
                   <label for="friendTitle" class="form-label">Job Title</label>
                   <input type="text" class="form-control" id="friendTitle" aria-describedby="nameHelp" name="fTitle">
-                  <div id="nameHelp" class="form-text">Enter the Job Title.</div>
+                  
                 </div>
                 <input type="hidden" name="saveType" value="Add">
                 <button type="submit" class="btn btn-primary">Submit</button>
