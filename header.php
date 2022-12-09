@@ -43,10 +43,10 @@
                       <a class="nav-link" href="savedJob.php">Saved Jobs</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="founders.php">Founders Page</a>
+                      <a class="nav-link" href="friend.php">Friends Page</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="friend.php">Friends Page</a>
+                      <a class="nav-link" href="founders.php">Founders Page</a>
                     </li>
                   </ul>
                 </div>

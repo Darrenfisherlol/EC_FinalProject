@@ -1,11 +1,15 @@
 <?php require_once("header.php"); ?>
 
+  <div style="height:250px; width: 100%;  height: 300px;">
 
-  <div style="Width:100%; height:100px; text-align: center; font-weight: bold; font-size:75px;background-color: #fde3c8; margin-bottom: 10px;">
-    <p style="font-size:50px; color: #372823;">
-        Friends List
-    </p>
+    <img style="height:100%; width: 100%;" src="https://www.ou.edu/content/dam/homepage/outside-class-march-11-2020.jpg">
+
   </div>
+
+  <div style="text-align: center; vertical-align:middle; display:inline-block; font-size: 100px; Height:150px; width: 100%; background-color: #fef1e4; color: #261a04; font-weight: bold;">
+  Friends List
+  </div>
+  
 
   <div style="background-color: #fef1e4;">
 
