@@ -25,10 +25,8 @@
         <div style="height:300px; ; width: 100%; text-align:center;">
 
 
-            <div style="float: left; height:100%; width: 50%; padding: 5px;  background-color: #fde3c8; color: #372823;">
-                
-        
-                    <div>
+            <div style="float: left; height:100%; width: 50%; padding: 5px;  background-color: #fde3c8; color: #372823;">            
+                    <div style="font-size:40px; height:100%;">
                             <p id="changeContent" style="font-size: 25px;">
                                 "Jobly helped me get 100 job interviews with 100% success"
                             </p>
@@ -46,8 +44,6 @@
 
                         </div>
                     </div>
-
-        
             <div style="float: left; height:100%; width: 50%; padding: 5px;font-size:45px; background-color: #e5c185;">
                 
                 Jobly was created in 2022 as the increasing need for a job after graduation became more prevalent
