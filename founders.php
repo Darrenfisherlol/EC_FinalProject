@@ -62,8 +62,8 @@
                 </p>
             </div>
             
-            <div style="width: 50%; height: 100%; float: left;">
-                <img style="height: 100%; width:50%; display: flex; justify-content: center; align-items: center;" src="https://media-exp1.licdn.com/dms/image/C4E03AQEXLkjEQK7QYg/profile-displayphoto-shrink_400_400/0/1621025060836?e=1674086400&v=beta&t=8iPq0SLTLrraWpaoK4p6oY-euPQlglgDJSPuNzjlu0c" alt="Darren">
+            <div style="width: 50%; height: 100%; float: left; justify-content: center; align-items: center;">
+                <img style="height: 100%; width:50%;" src="https://media-exp1.licdn.com/dms/image/C4E03AQEXLkjEQK7QYg/profile-displayphoto-shrink_400_400/0/1621025060836?e=1674086400&v=beta&t=8iPq0SLTLrraWpaoK4p6oY-euPQlglgDJSPuNzjlu0c" alt="Darren">
             </div>
         </div>
 
