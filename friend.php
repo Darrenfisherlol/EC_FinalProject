@@ -1,5 +1,5 @@
 <?php require_once("header.php"); ?>
-<h1>Sections</h1>
+<h1>Friends</h1>
 <table class="table table-striped">
   <thead>
     <tr>
@@ -64,14 +64,14 @@ if ($result->num_rows > 0) {
               <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#editFriend<?=$row["friendID"]?>">
                 Edit
               </button>
-              <div class="modal fade" id="editFriend<?=$row["friendID"]?>" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="editSection<?=$row["friendID"]?>Label" aria-hidden="true">
+              <div class="modal fade" id="editFriend<?=$row["friendID"]?>" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="editFriend<?=$row["friendID"]?>Label" aria-hidden="true">
                 <div class="modal-dialog">
                   <div class="modal-content">
                     <div class="modal-header">
                       <h1 class="modal-title fs-5" id="editFriend<?=$row["friendID"]?>Label">Edit friend</h1>
                       <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
-                    <!--
+                    
                     <div class="modal-body">
                       <form method="post" action="">
                         <div class="mb-3">
@@ -87,7 +87,7 @@ if ($result->num_rows > 0) {
                         <input type="submit" class="btn btn-primary" value="Submit">
                       </form>
                     </div>
-                  -->
+                  
                   </div>
                 </div>
               </div>
