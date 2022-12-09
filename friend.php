@@ -26,14 +26,14 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     case 'Add':
       $sqlAdd = "insert into friend (friendID, firstName, lastName, friendTitle) value (?,?,?,?)";
       $stmtAdd = $conn->prepare($sqlAdd);
-      $stmtAdd->bind_param("sss", $_POST['fName'], $_POST['lName'], $_POST['fTitle']);
+      $stmtAdd->bind_param("isss", $_POST['fName'], $_POST['lName'], $_POST['fTitle']);
       $stmtAdd->execute();
       echo '<div class="alert alert-success" role="alert">New friend added.</div>';
       break;
     case 'Edit':
       $sqlEdit = "update friend set firstName=?, lastName=?, friendTitle=? where friendID=?";
       $stmtEdit = $conn->prepare($sqlEdit);
-      $stmtEdit->bind_param("sss", $_POST['fName'], $_POST['lName'], $_POST['fTitle']);
+      $stmtEdit->bind_param("isss", $_POST['fName'], $_POST['lName'], $_POST['fTitle']);
       $stmtEdit->execute();
       echo '<div class="alert alert-success" role="alert">friend edited.</div>';
       break;
@@ -61,7 +61,7 @@ if ($result->num_rows > 0) {
             <td><?=$row["lastName"]?></td>
             <td><?=$row["friendTitle"]?></td>
             <td>
-              <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#editSection<?=$row["friendID"]?>">
+              <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#editFriend<?=$row["friendID"]?>">
                 Edit
               </button>
               <div class="modal fade" id="editFriend<?=$row["friendID"]?>" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="editSection<?=$row["friendID"]?>Label" aria-hidden="true">
@@ -76,13 +76,13 @@ if ($result->num_rows > 0) {
                       <form method="post" action="">
                         <div class="mb-3">
                           <label for="editFriend<?=$row["friendID"]?>firstName" class="form-label">First Name</label>
-                          <input type="text" class="form-control" id="editFriend<?=$row["friendID"]?>Name" aria-describedby="editFriend<?=$row["friendID"]?>Help" name="sNum" value="<?=$row['sectionNumber']?>">
-                          <div id="editSection<?=$row["sectionID"]?>Help" class="form-text">Enter the Section's Number.</div>
-                          <label for="courseID" class="form-label">Course ID</label>
-                          <input type="text" class="form-control" id="cID" aria-describedby="nameHelp" name="cID" value="<?=$row['courseID']?>">
-                          <div id="nameHelp" class="form-text">Enter the Course's ID</div>                          
+                          <input type="text" class="form-control" id="editFriend<?=$row["friendID"]?>Name" aria-describedby="editFriend<?=$row["friendID"]?>Help" name="fName" value="<?=$row['firstName']?>">
+                          <div id="editFriend<?=$row["friendID"]?>Help" class="form-text">First Name</div>
+                          <label for="firstName" class="form-label">First Name</label>
+                          <input type="text" class="form-control" id="fName" aria-describedby="nameHelp" name="fName" value="<?=$row['friendID']?>">
+                          <div id="nameHelp" class="form-text">Enter the Last Name</div>                          
                         </div>
-                        <input type="hidden" name="seID" value="<?=$row['sectionID']?>">
+                        <input type="hidden" name="fID" value="<?=$row['friendID']?>">
                         <input type="hidden" name="saveType" value="Edit">
                         <input type="submit" class="btn btn-primary" value="Submit">
                       </form>
@@ -94,7 +94,7 @@ if ($result->num_rows > 0) {
             </td>
             <td>
               <form method="post" action="">
-                <input type="hidden" name="seID" value="<?=$row["sectionID"]?>" />
+                <input type="hidden" name="fID" value="<?=$row["friendID"]?>" />
                 <input type="hidden" name="saveType" value="Delete">
                 <input type="submit" class="btn" onclick="return confirm('Are you sure?')" value="Delete">
               </form>
