@@ -79,7 +79,7 @@ if ($result->num_rows > 0) {
                         <div class="mb-3">
 
                           <label for="editFirstFriend<?=$row["friendID"]?>Name" class="form-label">Enter First Name</label>
-                          <input type="text" class="form-control" id="editFirstFriend<?=$row["friendiD"]?> aria-describedby="editFirstFriend"<?=$row["friendID"]?>Help name="fName" value="<?=$row['firstName']?>">
+                          <input type="text" class="form-control" id="editFirstFriend<?=$row["friendiD"]?>"Name" aria-describedby="editFirstFriend"<?=$row["friendID"]?>Help name="fName" value="<?=$row['firstName']?>"</input>
 
                    
                           <label for="editLastFriend<?=$row["friendID"]?>Name" class="form-label">Enter Last Name</label>
