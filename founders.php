@@ -14,7 +14,7 @@
             </p>
         </div>
 
-        <div style="width: 100%; height:175px; margin-bottom: 10px;; background-color: #fde3c8; color:#f0913d ">
+        <div style="width: 100%; height:175px; margin-bottom: 10px;; background-color: #f0913d; color:#372823 ">
             
             <div style="width: 31%; float: left;font-size:25px; text-align:center; margin-left:15px; margin-right:15px; background-color: #fef1e4;">
                 Nicole and Darren worked with the University of Oklahoma, Dr. Bellah, and OU create to make all their dreams come true.
