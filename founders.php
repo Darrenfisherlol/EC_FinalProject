@@ -8,13 +8,13 @@
     <!-- Div which is 100% of page -->
     <div style="background-color: #fef1e4;">
 
-        <div style="Width:100%; height:200px; margin-top: 25px; margin-bottom: 25px; text-align: center; font-weight: bold; font-size:75px ">
+        <div style="Width:100%; height:200px; margin-top: 25px; margin-bottom: 10px; text-align: center; font-weight: bold; font-size:75px ">
             <p style="font-size:50px; color: #372823; background-color: #fde3c8;">
                 About Founders:
             </p>
         </div>
 
-        <div style="width: 100%; height:175px;  margin-top: 10px; margin-bottom: 50px; background-color: #a3b6bc; color:#372823 ">
+        <div style="width: 100%; height:175px; margin-bottom: 50px; background-color: #a3b6bc; color:#372823 ">
             
             <div style="width: 31%; float: left;font-size:25px; text-align:center; margin-left:15px; margin-right:15px; background-color: #f0913d;">
                 Nicole and Darren worked with the University of Oklahoma, Dr. Bellah, and OU create to make all their dreams come true.
