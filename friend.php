@@ -62,8 +62,7 @@ if ($result->num_rows > 0) {
             <td><?=$row["friendTitle"]?></td>
             <td>
             <form method="post" action="friendFile.php">
-             <input type="hidden" name="id" value="<?=$row["friendID"]?>" />
-             <input type="submit" value="Friends" />
+             <input type="hidden" name="id" value="<?=$row["friendID"]?>" />             
            </form>
            </td>
             <td>
