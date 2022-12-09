@@ -44,7 +44,7 @@
 
 
 
-        <div style="height: 300px; width: 100%; text-align:center; margin-bottom:10px">
+        <div style="height: 300px; width: 100%; text-align:center;">
 
             <div style="float: left; height:100%; width: 50%; padding: 5px; background-color: #e5c185; text-align: center; ">
                 
@@ -66,7 +66,7 @@
         </div>
 
         
-        <div style="height:100px; font-size:30px; width: 100%; background-color: #e5c185; font-weight: bold;">
+        <div style="height:100px; font-size:30px; width: 100%; background-color: #fef1e4; font-weight: bold;">
 
             Learn more about the founders here:
             
