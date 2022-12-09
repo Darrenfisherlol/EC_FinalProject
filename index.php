@@ -29,13 +29,27 @@
                 
             
                 <p style="font-size:40px; height:100%; vertical-align:middle; display:inline-block;">
+                    <div>
+                            <p id="changeContent" style="font-size: 25px;">
+                                "Jobly helped me get 100 job interviews with 100% success"
+                            </p>
 
-                    "Jobly helped me get 100 job interviews with 100% success"
+                            <button onclick="changeContent()">Learn more about how we help customers</button>
 
+                            <script>
+                                function changeContent() 
+                                {
+                                    document.getElementById("changeContent").innerHTML = "I got a job using Jobly!"
+                                }
+                        
+                                
+                            </script>
+
+                        </div>
+                    </div>
                 <p>
 
-            </div>
-
+        
             <div style="float: left; height:100%; width: 50%; padding: 5px;font-size:45px; background-color: #e5c185;">
                 
                 Jobly was created in 2022 as the increasing need for a job after graduation became more prevalent
