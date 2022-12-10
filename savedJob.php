@@ -59,7 +59,7 @@
           <td><?=$row["companyName"]?></td>
           <td><?=$row["location"]?></td>
           <td><?=$row["hiringTime"]?></td>
-          <td><a class="btn btn-primary" href="<?=$row["link"]?>" role="button">Job Link</a></td>
+          <td><a class="btn btn-warning" href="<?=$row["link"]?>" role="button">Job Link</a></td>
 
           <td>
               <form method="post" action="savedJobDelete.php">
