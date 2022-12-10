@@ -20,6 +20,7 @@
         <th>First Name</th>
         <th>Last Name</th>
         <th>Job Title</th>
+        <th>       </th>
         <th>Edit Button</th>
         <th>Delete Button</th>      
       </tr>
