@@ -137,7 +137,7 @@
         </table>
         <br />
         <!-- Button trigger modal -->
-        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#addFriend">
+        <button type="button" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#addFriend">
           Add New
         </button>
 
