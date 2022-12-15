@@ -27,7 +27,7 @@
 
             <div style="float: left; height:100%; width: 50%; padding: 5px;  background-color: #fde3c8; color: #372823;">            
                     <div >
-                            <p id="changeContent" style="font-size:40px;">
+                            <p id="changeContent" style="font-size:40px; margin-top: 20px;">
                                 "Jobly helped me get 100 job interviews with 100% success"
                             </p>
 
@@ -44,7 +44,7 @@
 
                         </div>
                     </div>
-            <div style="float: left; height:100%; width: 50%; padding: 5px;font-size:45px; background-color: #e5c185;">
+            <div style="float: left; height:100%; width: 50%; padding: 5px;font-size:45px; background-color: #e5c185; margin-top: 20px;">
                 
                 Jobly was created in 2022 as the increasing need for a job after graduation became more prevalent
 
@@ -56,7 +56,7 @@
 
         <div style="height: 300px; width: 100%; text-align:center;">
 
-            <div style="float: left; height:100%; width: 50%; padding: 5px; background-color: #e5c185; text-align: center; ">
+            <div style="float: left; height:100%; width: 50%; padding: 5px; background-color: #e5c185; text-align: center; margin-top: 20px; ">
                 
                 <div>
                     <img width="30%" height="30%" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fblog.carltonstaffing.com%2Fwp-content%2Fuploads%2F2020%2F09%2Flinkedin-icon-logo-png-transparent-2048x2048.png&f=1&nofb=1&ipt=e32db8beb9891a030a378a029b8454bdfee8302fd7e4845b708a1cf0b8f767cd&ipo=images">
@@ -64,8 +64,8 @@
 
             </div>
 
-            <div style="float: left; height:100%; width: 50%; padding: 5px; background-color: #fde3c8; ">
-                <p style="font-size:45px; vertical-align:middle; display:inline-block;">
+            <div style="float: left; height:100%; width: 50%; padding: 5px; background-color: #fde3c8;">
+                <p style="font-size:45px; vertical-align:middle; display:inline-block; margin-top: 20px;">
 
                     Linkedin collect user information and make you buy expensive +$30 a month subscriptions!
 
@@ -82,7 +82,7 @@
         
         </br>
 
-        <a href="founders.php" class="btn btn-secondary btn-lg"> 
+        <a href="founders.php" class="btn btn-warning btn-lg"> 
             Founders Page
         </a>
 
