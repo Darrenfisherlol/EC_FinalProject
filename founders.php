@@ -50,11 +50,11 @@
                                  
             <div style="width: 75%; height: 100%; float: left; text-align: center;"> 
 
-                <p style="font-size:25px; color: #372823; background-color: #f3ce8b;text-align: center;">
+                <p style="font-size:25px; color: #372823; background-color: #f3ce8b;text-align: center; margin-top: 70px;">
                         Darren loves helping his friends and creating solutions to problems even more!
                 
                     <div>
-                        <p id="changeContent" style="font-size: 25px;">
+                        <p id="changeContent" style="font-size: 25px; margin-top: 70px;">
                         Darren Fisher is a senior studying Management Information Systems and is on the accelerated Masters track in Information Technology. 
                         </p>
 
