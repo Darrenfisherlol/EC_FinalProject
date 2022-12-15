@@ -60,8 +60,8 @@
                         Darren Fisher is a senior studying Management Information Systems and is on the accelerated Masters track in Information Technology. 
                         </p>
 
-                        <class="btn btn-warning" button onclick="changeContent()">Learn more</button>
-                        <class="btn btn-warning" button onclick="changeContentTwo()">Learn more more!!</button>
+                        <button onclick="changeContent()">Learn more</button>
+                        <button onclick="changeContentTwo()">Learn more more!!</button>
 
                         <script>
                             function changeContent() 
@@ -82,7 +82,7 @@
             
             </div>
 
-            <div style="width: 25%; height: 100%; float: left;text-align: center; "> 
+            <div style="width: 25%; height: 100%; float: left; text-align: center;"> 
                 <img style="height: 100%; text-align: center; display: flex; justify-content: center; align-items: center;" src="https://media-exp1.licdn.com/dms/image/C4E03AQEXLkjEQK7QYg/profile-displayphoto-shrink_400_400/0/1621025060836?e=1674086400&v=beta&t=8iPq0SLTLrraWpaoK4p6oY-euPQlglgDJSPuNzjlu0c" alt="Darren">
             </div>
 
