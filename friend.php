@@ -89,7 +89,7 @@
                     <div class="modal-content">
                       <div class="modal-header">
                         <h1 class="modal-title fs-5" id="editFriend<?=$row["friendID"]?>Label">Edit Friend</h1>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        <button type="button" class="btn btn-warning" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                       </div>
                       <div class="modal-body">
                         <form method="post" action="">
@@ -109,7 +109,7 @@
                           </div>
                           <input type="hidden" name="fID" value="<?=$row['friendID']?>">
                           <input type="hidden" name="saveType" value="Edit">
-                          <input type="submit" class="btn btn-primary" value="Submit">
+                          <input type="submit" class="btn btn-warning" value="Submit">
                         </form>
                       </div>
                     </div>
@@ -120,7 +120,7 @@
                 <form method="post" action="">
                   <input type="hidden" name="fID" value="<?=$row["friendID"]?>" />
                   <input type="hidden" name="saveType" value="Delete">
-                  <input type="submit" class="btn" onclick="return confirm('Are you sure?')" value="Delete">
+                  <input type="submit" class="btn btn-danger" class="btn" onclick="return confirm('Are you sure?')" value="Delete">
                 </form>
               </td>
             </tr>
@@ -163,7 +163,7 @@
                     
                   </div>
                   <input type="hidden" name="saveType" value="Add">
-                  <button type="submit" class="btn btn-primary">Submit</button>
+                  <button type="submit" class="btn btn-warning">Submit</button>
                 </form>
               </div>
             </div>
