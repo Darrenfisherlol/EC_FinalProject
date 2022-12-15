@@ -21,7 +21,7 @@
             <div class="container-fluid">
               <a class="navbar-brand">
 
-                <p style="color:#372823; margin-top: 20px;">
+                <p style="color:#372823; margin-top: 15px;">
                   Jobly
                 </p>
 
