@@ -88,7 +88,7 @@
 
     </div>
 
-    <div style="height:400px; font-size:25px; text-align: center; width: 100%; background-color: #fef1e4; font-weight: bold;">
+    <div style="height:500px; font-size:25px; text-align: center; width: 100%; background-color: #fef1e4; font-weight: bold;">
 
         Check out our groth rate!
 
@@ -113,9 +113,6 @@
             </div>
         </div>
     </div>
-
-
-
 
     <div style="background-color: #fef1e4;">
 
