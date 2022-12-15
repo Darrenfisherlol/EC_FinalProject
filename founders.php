@@ -34,7 +34,7 @@
                 <img style="height: 100%;  display: flex; justify-content: center; align-items: center;" src="https://media-exp1.licdn.com/dms/image/C5603AQFvAaQW30mjag/profile-displayphoto-shrink_400_400/0/1629331853308?e=1674086400&v=beta&t=z62IE1kzoF_2Y7N9iEL5oxM1gHSzvdnoPFrysVoxZ3g" alt="Nicole">
             </div>
             
-            <div style="width: 75%; height: 100%; margin-top: 70px; margin-left:15px; float: left;"> 
+            <div style="width: 75%; height: 100%; margin-top: 70px; margin-left:2px; float: left;"> 
 
                 <p style="font-size:25px; color: #372823; background-color: #fde3c8;text-align: center;">
                     Nicole Goral is a senior studying Management Information Systems and International Business. 
