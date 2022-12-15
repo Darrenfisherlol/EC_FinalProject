@@ -88,15 +88,15 @@
 
     </div>
 
-    <div style="height:200px; font-size:25px; text-align: center; width: 100%; background-color: #fef1e4; font-weight: bold;">
+    <div style="height:400px; font-size:25px; text-align: center; width: 100%; background-color: #fef1e4; font-weight: bold;">
 
         Check out our groth rate!
 
         <div>
 
-            <div style="font-size: 50px; margin-left: 100px;"> Jobly % user growth 7/1/22 - 8-20/22</div>
+            <div style="font-size: 25px; margin-left: 100px;"> Jobly % user growth 7/1/22 - 8-20/22</div>
 
-            <div id="ChartGrowth" style="width:1000px;height:500px;"></div>
+            <div id="ChartGrowth" style="width:100%; height:350px;"></div>
  
             <div>
 
