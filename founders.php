@@ -14,17 +14,16 @@
             </p>
         </div>
 
-        <div style="width: 100%; height:200px; margin-bottom: 20px;; background-color: #f3ce8b; color:#372823 ">
+        <div style="width: 100%; height:200px; margin-bottom: 10px;; background-color: #f3ce8b; color:#372823 ">
             
             <div style="width: 31%; float: left;font-size:25px; margin-top: 10px; text-align:center; margin-left:15px; margin-right:15px; background-color: #fde3c8;">
                 Nicole and Darren worked with the University of Oklahoma, Dr. Bellah, and OU create to make all their dreams come true.
             </div>
             <div style="width: 31%; float: left;font-size:25px;margin-top: 10px; text-align:center; margin-left:15px; margin-right:15px;background-color: #fde3c8;">
-                Jobly is their beautiful brain child that they hope will help future students and job seekers to stay organized and eventually find a job.
+                They hope that you have a wonderful experience using Jobly!
             </div>
             <div style="width: 31%; float: left;font-size:25px; margin-top: 10px;text-align:center; margin-left:15px; margin-right:15px;background-color: #fde3c8;">
-                They hope that you have a wonderful experience using Jobly!
-                                            
+                Jobly is their beautiful brain child that they hope will help future students and job seekers to stay organized and eventually find a job.
             </div>
           
         </div>
