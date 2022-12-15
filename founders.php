@@ -46,12 +46,8 @@
 
         </div>
 
-        <div style="width: 100%; height:300px; margin-bottom: 10px; background-color: #f3ce8b; color:#372823; ">
-            
-            <div style="width: 25%; height: 100%; float: left; text-align: center;"> 
-                <img style="height: 100%;  display: flex; justify-content: center; align-items: center;" src="https://media-exp1.licdn.com/dms/image/C4E03AQEXLkjEQK7QYg/profile-displayphoto-shrink_400_400/0/1621025060836?e=1674086400&v=beta&t=8iPq0SLTLrraWpaoK4p6oY-euPQlglgDJSPuNzjlu0c" alt="Darren">
-            </div>
-            
+        <div style="width: 100%; height:250px; margin-bottom: 10px; background-color: #f3ce8b; color:#372823; ">
+                                  
             <div style="width: 75%; height: 100%; float: left;text-align: center;"> 
 
                 <p style="font-size:25px; color: #372823; background-color: #f3ce8b;text-align: center;">
@@ -78,13 +74,13 @@
                         </script>
 
                     </div>
-                </p>
-
-                                    
+                </p>                                    
             
             </div>
     
-            
+            <div style="width: 25%; height: 100%; float: left; text-align: center;"> 
+                <img style="height: 100%;  display: flex; justify-content: center; align-items: center;" src="https://media-exp1.licdn.com/dms/image/C4E03AQEXLkjEQK7QYg/profile-displayphoto-shrink_400_400/0/1621025060836?e=1674086400&v=beta&t=8iPq0SLTLrraWpaoK4p6oY-euPQlglgDJSPuNzjlu0c" alt="Darren">
+            </div>
             
 
         </div>
