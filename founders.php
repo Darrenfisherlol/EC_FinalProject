@@ -36,7 +36,7 @@
             
             <div style="width: 75%; height: 100%; margin-top: 70px; float: left;"> 
 
-                <p style="font-size:25px; color: #372823; background-color: #f3ce8b;text-align: center;">
+                <p style="font-size:25px; color: #372823; background-color: #f3ce8b;text-align: center; margin-right:15px;">
                     Nicole Goral is a senior studying Management Information Systems and International Business. 
                     After applying to over 70 jobs, Nicole got overwhelmed with tracking which jobs she applied to. 
                     This website is to help people like Nicole who want to find a job and stay organized while doing so!
