@@ -19,7 +19,7 @@
             <div style="width: 31%; float: left;font-size:25px; margin-top: 40px; text-align:center; margin-left:15px; margin-right:15px; background-color: #fde3c8;">
                 Nicole and Darren worked with the University of Oklahoma, Dr. Bellah, and OU create to make all their dreams come true.
             </div>
-            <div style="width: 31%; float: left;font-size:25px;margin-top: 40px; text-align:center; margin-left:15px; margin-right:15px;background-color: #fde3c8;">
+            <div style="width: 31%; float: left;font-size:25px;margin-top: 60px; text-align:center; margin-left:15px; margin-right:15px;background-color: #fde3c8;">
                 They hope that you have a wonderful experience using Jobly!
             </div>
             <div style="width: 31%; float: left;font-size:25px; margin-top: 40px;text-align:center; margin-left:15px; margin-right:15px;background-color: #fde3c8;">
@@ -56,7 +56,7 @@
                         Darren loves helping his friends and creating solutions to problems even more!
                 
                     <div>
-                        <p id="changeContent" style="font-size: 25px; margin-top: 40px;">
+                        <p id="changeContent" style="font-size: 25px;">
                         Darren Fisher is a senior studying Management Information Systems and is on the accelerated Masters track in Information Technology. 
                         </p>
 
