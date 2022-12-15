@@ -21,7 +21,7 @@
             <div class="container-fluid">
               <a class="navbar-brand">
 
-                <p style="color:#372823; margin-top: 15px;">
+                <p style="color:#372823; margin-top: 15px; font-size:30px; font-weight: bold;">
                   Jobly
                 </p>
 
@@ -32,7 +32,7 @@
 
                 <div class="collapse navbar-collapse" id="navbarNav">
 
-                  <ul class="navbar-nav" style="color: #372823; font-size: 20px;">
+                  <ul class="navbar-nav" style="color: #372823; font-size: 20px; font-weight: bold;">
                     <li class="nav-item">
                       <a class="nav-link" href="index.php">Home</a>
                     </li>
