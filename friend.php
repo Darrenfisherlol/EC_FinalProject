@@ -81,7 +81,7 @@
               
               </td>
               <td>
-                <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#editFriend<?=$row["friendID"]?>">
+                <button type="button" class="btn btn-warning" class="btn" data-bs-toggle="modal" data-bs-target="#editFriend<?=$row["friendID"]?>">
                   Edit
                 </button>
                 <div class="modal fade" id="editFriend<?=$row["friendID"]?>" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="editFriend<?=$row["friendID"]?>Label" aria-hidden="true">
