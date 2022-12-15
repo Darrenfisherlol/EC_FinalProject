@@ -54,7 +54,7 @@
                         Darren loves helping his friends and creating solutions to problems even more!
                 
                     <div>
-                        <p id="changeContent" style="font-size: 25px; margin-top: 70px;">
+                        <p id="changeContent" style="font-size: 25px; margin-top: 15px;">
                         Darren Fisher is a senior studying Management Information Systems and is on the accelerated Masters track in Information Technology. 
                         </p>
 
