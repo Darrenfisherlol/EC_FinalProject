@@ -32,7 +32,7 @@
 
                 <div class="collapse navbar-collapse" id="navbarNav">
 
-                  <ul class="navbar-nav" style="color: #372823">
+                  <ul class="navbar-nav" style="color: #372823; font-size: 20px;">
                     <li class="nav-item">
                       <a class="nav-link" href="index.php">Home</a>
                     </li>
