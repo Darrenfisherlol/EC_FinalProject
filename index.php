@@ -88,6 +88,35 @@
 
     </div>
 
+    <div style="height:200px; font-size:25px; text-align: center; width: 100%; background-color: #fef1e4; font-weight: bold;">
+
+        Check out our groth rate!
+
+        <div>
+
+            <div style="font-size: 50px; margin-left: 100px;"> Jobly % user growth 7/1/22 - 8-20/22</div>
+
+            <div id="ChartGrowth" style="width:1000px;height:500px;"></div>
+ 
+            <div>
+
+                <script>
+                    TESTER = document.getElementById('ChartGrowth');
+                    Plotly.newPlot( TESTER, [{
+
+                    x: ['7-1-22','7-12-22','7-15-22','7-18-22','7-25-22','7-28-22','8-1-22','8-5-22','8-15-22','8-20-22'],
+                    y: [10,20,25,23,26,29,34,40,56,60] }], {
+
+                    margin: { t: 0 } } );
+                </script>
+
+            </div>
+        </div>
+    </div>
+
+
+
+
     <div style="background-color: #fef1e4;">
 
         <div style="text-align: center; font-size:30px; width: 100%; background-color: #fef1e4; font-weight: bold;">
