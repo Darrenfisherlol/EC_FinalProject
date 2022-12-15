@@ -46,9 +46,8 @@
 
         </div>
 
-        <div style="width: 100%; height:250px; margin-bottom: 10px; background-color: #f3ce8b; color:#372823; ">
-                                  
-            <div style="width: 75%; height: 100%; float: left;text-align: center;"> 
+        <div style="width: 100%; height:300px; margin-bottom: 10px; background-color: #f3ce8b; color:#372823; ">
+                                 
 
                 <p style="font-size:25px; color: #372823; background-color: #f3ce8b;text-align: center;">
                         Darren loves helping his friends and creating solutions to problems even more!
