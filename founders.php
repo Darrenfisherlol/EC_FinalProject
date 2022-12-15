@@ -60,8 +60,8 @@
                         Darren Fisher is a senior studying Management Information Systems and is on the accelerated Masters track in Information Technology. 
                         </p>
 
-                        <button onclick="changeContent()">Learn more</button>
-                        <button onclick="changeContentTwo()">Learn more more!!</button>
+                        <class="btn btn-warning" button onclick="changeContent()">Learn more</button>
+                        <class="btn btn-warning" button onclick="changeContentTwo()">Learn more more!!</button>
 
                         <script>
                             function changeContent() 
@@ -78,9 +78,7 @@
                     </div>
                 </p>
 
-            
-            
-            
+                                    
             
             </div>
 
