@@ -30,7 +30,7 @@
                   <span class="navbar-toggler-icon"></span>
                 </button>
 
-                <div class="collapse navbar-collapse" id="navbarNav">
+                <div class="collapse navbar-collapse" class="font-weight-bold" id="navbarNav">
 
                   <ul class="navbar-nav" style="color: #372823">
                     <li class="nav-item">
