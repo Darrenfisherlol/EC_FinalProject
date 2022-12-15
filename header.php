@@ -17,7 +17,7 @@
         <!-- Pages -->
       <div style="background-color: #fde3c8;">
 
-        <nav class="navbar navbar-expand-lg bg-light" >
+        <nav class="navbar navbar-expand-lg bg-warning" >
             <div class="container-fluid">
               <a class="navbar-brand">
 
